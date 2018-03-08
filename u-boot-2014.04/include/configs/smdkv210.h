@@ -136,46 +136,9 @@
 
 #define CONFIG_ENV_OVERWRITE
 #define CONFIG_EXTRA_ENV_SETTINGS					\
-	CONFIG_UPDATEB \
-	"updatek=" \
-		"onenand erase 0x60000 0x300000;" \
-		"onenand write 0x31008000 0x60000 0x300000\0" \
-	"updateu=" \
-		"onenand erase block 147-4095;" \
-		"onenand write 0x32000000 0x1260000 0x8C0000\0" \
-	"bootk=" \
-		"onenand read 0x30007FC0 0x60000 0x300000;" \
-		"bootm 0x30007FC0\0" \
-	"flashboot=" \
-		"set bootargs root=/dev/mtdblock${bootblock} " \
-		"rootfstype=${rootfstype} " \
-		"ubi.mtd=${ubiblock} ${opts} " CONFIG_COMMON_BOOT ";" \
-		"run bootk\0" \
-	"ubifsboot=" \
-		"set bootargs root=ubi0!rootfs rootfstype=ubifs " \
-		" ubi.mtd=${ubiblock} ${opts} " CONFIG_COMMON_BOOT "; " \
-		"run bootk\0" \
-	"boottrace=setenv opts initcall_debug; run bootcmd\0" \
-	"android=" \
-		"set bootargs root=ubi0!ramdisk ubi.mtd=${ubiblock} " \
-		"rootfstype=ubifs init=/init.sh " CONFIG_COMMON_BOOT "; " \
-		"run bootk\0" \
-	"nfsboot=" \
-		"set bootargs root=/dev/nfs ubi.mtd=${ubiblock} " \
-		"nfsroot=${nfsroot},nolock " \
-		"ip=${ipaddr}:${serverip}:${gatewayip}:" \
-		"${netmask}:nowplus:usb0:off " CONFIG_COMMON_BOOT "; " \
-		"run bootk\0" \
-	"ramboot=" \
-		"set bootargs " CONFIG_RAMDISK_BOOT \
-		" initrd=0x33000000,8M ramdisk=8192\0" \
-	"rootfstype=cramfs\0" \
-	"mtdparts=" MTDPARTS_DEFAULT "\0" \
-	"meminfo=mem=128M\0" \
-	"nfsroot=/nfsroot/arm\0" \
-	"bootblock=5\0" \
-	"ubiblock=4\0" \
-	"ubi=enabled"
+		"nand read 20000000 260000 300000;" \
+		"bootm"
+	
 
 /*
  * Miscellaneous configurable options
