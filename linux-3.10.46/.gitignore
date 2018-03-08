@@ -23,8 +23,6 @@
 *.symtypes
 *.order
 modules.builtin
-*.elf
-*.bin
 *.gz
 *.bz2
 *.lzma
@@ -38,10 +36,6 @@ modules.builtin
 #
 /tags
 /TAGS
-/linux
-/vmlinux
-/vmlinuz
-/System.map
 /Module.markers
 /Module.symvers
 
