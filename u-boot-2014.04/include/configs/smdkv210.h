@@ -124,15 +124,15 @@
 				" console=ttySAC0,115200n8" \
 				" mem=128M"
 
-#define CONFIG_COMMON_BOOT	"console=ttySAC0,115200n8" \
+#define CONFIG_COMMON_BOOT	"console=ttySAC2,115200n8" \
 				" mem=128M " \
 				" " MTDPARTS_DEFAULT
 
 #define CONFIG_BOOTARGS	"root=/dev/mtdblock5 ubi.mtd=4" \
 			" rootfstype=cramfs " CONFIG_COMMON_BOOT
 
-#define CONFIG_UPDATEB	"updateb=onenand erase 0x0 0x40000;" \
-			" onenand write 0x32008000 0x0 0x40000\0"
+#define CONFIG_UPDATEB	"updateb=nand erase 0x0 0x40000;" \
+			" nand write 0x32008000 0x0 0x40000\0"
 
 #define CONFIG_ENV_OVERWRITE
 #define CONFIG_EXTRA_ENV_SETTINGS					\
