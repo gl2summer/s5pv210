@@ -16,6 +16,7 @@ config CPU_S5PV210
 	select S5P_SLEEP if PM
 	select SAMSUNG_DMADEV
 	select SAMSUNG_HRT
+	select S3C_DEV_NAND
 	help
 	  Enable S5PV210 CPU support
 

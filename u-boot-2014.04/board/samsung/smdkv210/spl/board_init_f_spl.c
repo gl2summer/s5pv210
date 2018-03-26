@@ -219,8 +219,9 @@ typedef enum{MENU_ENTRY=0, MENU_AUTO_BOOT, MENU_CMD, MENU_DOWNLOAD, MENU_BOOT}ME
 void print_menu(void)
 {
 	uart_printf("\r\n\r\n---------------- boot menu, please input your command: ----------------\r\n");
-	uart_printf(">> D: download myboot(SPL+uboot) into nandflash(uart2, xModem, 0)\r\n");
-	uart_printf(">> K: download kernel into nandflash(uart2, xModem, 0x260000)\r\n");
+	uart_printf(">> D: download myboot(SPL+uboot) into nandflash(xModem, 0)\r\n");
+	uart_printf(">> K: download kernel into nandflash(xModem, 0x260000)\r\n");
+	uart_printf(">> R: download rootfs into nandflash(xModem, 0x560000)\r\n");
 	uart_printf(">> B: start uboot\r\n");
 	uart_printf(">> N: test nand with ecc\r\n");
 	uart_printf(">> C: readback nand(BL1+BL2)\r\n");
@@ -280,8 +281,14 @@ void menu(unsigned long timestamp, bool recved, char c)
 					menu_state = MENU_DOWNLOAD;
 				break;
 				
-				case 'b':
+				case 'R':
+				case 'r':
+					doXmodemDownloadInit(ROOTFS_NF_ADDR);
+					menu_state = MENU_DOWNLOAD;
+					break;
+				
 				case 'B':
+				case 'b':
 					menu_state = MENU_BOOT;
 				break;
 				

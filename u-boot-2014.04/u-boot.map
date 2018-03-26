@@ -2358,7 +2358,7 @@ Address of section .text set to 0x20000000
  .iplt          0x000000002002397c        0x0 arch/arm/cpu/armv7/start.o
                 0x000000002002397c                . = ALIGN (0x4)
 
-.rodata         0x0000000020023980     0x80ed
+.rodata         0x0000000020023980     0x80e3
  *(SORT(.rodata*))
  .rodata.location.7315
                 0x0000000020023980       0x30 common/built-in.o
@@ -2441,1653 +2441,1652 @@ Address of section .text set to 0x20000000
                 0x00000000200256e8      0x100 lib/built-in.o
                 0x00000000200256e8                _ctype
  .rodata.default_environment
-                0x00000000200257e8      0x11c common/built-in.o
+                0x00000000200257e8      0x112 common/built-in.o
                 0x00000000200257e8                default_environment
  .rodata.delims.6387
-                0x0000000020025904        0x3 common/built-in.o
+                0x00000000200258fa        0x3 common/built-in.o
  .rodata.digits.6391
-                0x0000000020025907       0x10 lib/built-in.o
+                0x00000000200258fd       0x10 lib/built-in.o
  .rodata.env_flags_varaccess_rep
-                0x0000000020025917        0x5 common/built-in.o
+                0x000000002002590d        0x5 common/built-in.o
  .rodata.env_flags_vartype_rep
-                0x000000002002591c        0x7 common/built-in.o
+                0x0000000020025912        0x7 common/built-in.o
  .rodata.erase_seq
-                0x0000000020025923        0x4 common/built-in.o
+                0x0000000020025919        0x4 common/built-in.o
  .rodata.hex_asc
-                0x0000000020025927       0x11 lib/built-in.o
+                0x000000002002591d       0x11 lib/built-in.o
  .rodata.names.6291
-                0x0000000020025938        0x6 lib/built-in.o
+                0x000000002002592e        0x6 lib/built-in.o
  .rodata.nand_ecc_precalc_table
-                0x000000002002593e      0x100 drivers/mtd/nand/built-in.o
+                0x0000000020025934      0x100 drivers/mtd/nand/built-in.o
  .rodata.str1.1
-                0x0000000020025a3e       0x7a arch/arm/cpu/armv7/built-in.o
+                0x0000000020025a34       0x7a arch/arm/cpu/armv7/built-in.o
  .rodata.str1.1
-                0x0000000020025ab8       0x16 arch/arm/cpu/armv7/s5pc1xx/built-in.o
+                0x0000000020025aae       0x16 arch/arm/cpu/armv7/s5pc1xx/built-in.o
  .rodata.str1.1
-                0x0000000020025ace      0x34a arch/arm/lib/built-in.o
+                0x0000000020025ac4      0x34a arch/arm/lib/built-in.o
                                         0x368 (size before relaxing)
  .rodata.str1.1
-                0x0000000020025e18       0x11 board/samsung/smdkv210/built-in.o
+                0x0000000020025e0e       0x11 board/samsung/smdkv210/built-in.o
  .rodata.str1.1
-                0x0000000020025e29     0x40aa common/built-in.o
+                0x0000000020025e1f     0x40aa common/built-in.o
                                        0x44df (size before relaxing)
  .rodata.str1.1
-                0x0000000020029ed3      0x110 disk/built-in.o
+                0x0000000020029ec9      0x110 disk/built-in.o
                                         0x124 (size before relaxing)
  .rodata.str1.1
-                0x0000000020029fe3      0x1ee drivers/mtd/built-in.o
+                0x0000000020029fd9      0x1ee drivers/mtd/built-in.o
  .rodata.str1.1
-                0x000000002002a1d1      0x873 drivers/mtd/nand/built-in.o
+                0x000000002002a1c7      0x873 drivers/mtd/nand/built-in.o
                                         0x8f1 (size before relaxing)
  .rodata.str1.1
-                0x000000002002aa44      0x214 drivers/net/built-in.o
+                0x000000002002aa3a      0x214 drivers/net/built-in.o
                                         0x215 (size before relaxing)
  .rodata.str1.1
-                0x000000002002ac58       0x57 drivers/serial/built-in.o
+                0x000000002002ac4e       0x57 drivers/serial/built-in.o
                                          0x92 (size before relaxing)
  .rodata.str1.1
-                0x000000002002acaf      0x267 fs/built-in.o
+                0x000000002002aca5      0x267 fs/built-in.o
                                         0x2a7 (size before relaxing)
  .rodata.str1.1
-                0x000000002002af16      0x456 lib/built-in.o
+                0x000000002002af0c      0x456 lib/built-in.o
                                         0x470 (size before relaxing)
  .rodata.str1.1
-                0x000000002002b36c      0x6a8 net/built-in.o
+                0x000000002002b362      0x6a8 net/built-in.o
                                         0x834 (size before relaxing)
  .rodata.str1.1
-                0x000000002002ba14       0x1b arch/arm/lib/eabi_compat.o
+                0x000000002002ba0a       0x1b arch/arm/lib/eabi_compat.o
  .rodata.tab_seq
-                0x000000002002ba2f        0x9 common/built-in.o
+                0x000000002002ba25        0x9 common/built-in.o
  .rodata.version_string
-                0x000000002002ba38       0x35 common/built-in.o
-                0x000000002002ba38                version_string
+                0x000000002002ba2e       0x35 common/built-in.o
+                0x000000002002ba2e                version_string
 
-.hash           0x000000002002ba70       0x18
- .hash          0x000000002002ba70       0x18 arch/arm/cpu/armv7/start.o
-                0x000000002002ba88                . = ALIGN (0x4)
+.hash           0x000000002002ba64       0x18
+ .hash          0x000000002002ba64       0x18 arch/arm/cpu/armv7/start.o
+                0x000000002002ba7c                . = ALIGN (0x4)
 
-.data           0x000000002002ba88     0x4dc2
+.data           0x000000002002ba7c     0x4dc2
  *(.data*)
- .data.rel.ro   0x000000002002ba88        0x0 arch/arm/cpu/armv7/start.o
+ .data.rel.ro   0x000000002002ba7c        0x0 arch/arm/cpu/armv7/start.o
  .data.s5p_cpu_id
-                0x000000002002ba88        0x4 arch/arm/cpu/armv7/built-in.o
-                0x000000002002ba88                s5p_cpu_id
+                0x000000002002ba7c        0x4 arch/arm/cpu/armv7/built-in.o
+                0x000000002002ba7c                s5p_cpu_id
  .data.s5p_cpu_rev
-                0x000000002002ba8c        0x4 arch/arm/cpu/armv7/built-in.o
-                0x000000002002ba8c                s5p_cpu_rev
+                0x000000002002ba80        0x4 arch/arm/cpu/armv7/built-in.o
+                0x000000002002ba80                s5p_cpu_rev
  .data.init_sequence
-                0x000000002002ba90       0x30 arch/arm/lib/built-in.o
-                0x000000002002ba90                init_sequence
+                0x000000002002ba84       0x30 arch/arm/lib/built-in.o
+                0x000000002002ba84                init_sequence
  .data.hist_cur
-                0x000000002002bac0        0x4 common/built-in.o
+                0x000000002002bab4        0x4 common/built-in.o
  .data.reserved_list
-                0x000000002002bac4       0x84 common/built-in.o
+                0x000000002002bab8       0x84 common/built-in.o
  .data.bootm_help_text
-                0x000000002002bb48      0x245 common/built-in.o
- *fill*         0x000000002002bd8d        0x3 
+                0x000000002002bb3c      0x245 common/built-in.o
+ *fill*         0x000000002002bd81        0x3 
  .data.cmd_bootm_sub
-                0x000000002002bd90       0xe0 common/built-in.o
+                0x000000002002bd84       0xe0 common/built-in.o
  .data.first_call
-                0x000000002002be70        0x8 common/built-in.o
+                0x000000002002be64        0x8 common/built-in.o
  .data.env_name_spec
-                0x000000002002be78        0x4 common/built-in.o
-                0x000000002002be78                env_name_spec
+                0x000000002002be6c        0x4 common/built-in.o
+                0x000000002002be6c                env_name_spec
  .data.source_help_text
-                0x000000002002be7c       0x4e common/built-in.o
- *fill*         0x000000002002beca        0x2 
- .data.do_echo  0x000000002002becc        0x4 common/built-in.o
+                0x000000002002be70       0x4e common/built-in.o
+ *fill*         0x000000002002bebe        0x2 
+ .data.do_echo  0x000000002002bec0        0x4 common/built-in.o
  .data.dp_last_length
-                0x000000002002bed0        0x4 common/built-in.o
+                0x000000002002bec4        0x4 common/built-in.o
  .data.mtdparts_help_text
-                0x000000002002bed4      0x4d3 common/built-in.o
+                0x000000002002bec8      0x4d3 common/built-in.o
  .data.nand_help_text
-                0x000000002002c3a7      0x3e3 common/built-in.o
+                0x000000002002c39b      0x3e3 common/built-in.o
  .data.imgextract_help_text
-                0x000000002002c78a       0x55 common/built-in.o
+                0x000000002002c77e       0x55 common/built-in.o
  .data.env_help_text
-                0x000000002002c7df      0x218 common/built-in.o
- *fill*         0x000000002002c9f7        0x1 
- .data.env_id   0x000000002002c9f8        0x4 common/built-in.o
+                0x000000002002c7d3      0x218 common/built-in.o
+ *fill*         0x000000002002c9eb        0x1 
+ .data.env_id   0x000000002002c9ec        0x4 common/built-in.o
  .data.cmd_env_sub
-                0x000000002002c9fc       0xfc common/built-in.o
+                0x000000002002c9f0       0xfc common/built-in.o
  .data.env_htab
-                0x000000002002caf8       0x10 common/built-in.o
-                0x000000002002caf8                env_htab
- .data.av_      0x000000002002cb08      0x408 common/built-in.o
+                0x000000002002caec       0x10 common/built-in.o
+                0x000000002002caec                env_htab
+ .data.av_      0x000000002002cafc      0x408 common/built-in.o
  .data.sbrk_base
-                0x000000002002cf10        0x4 common/built-in.o
+                0x000000002002cf04        0x4 common/built-in.o
  .data.trim_threshold
-                0x000000002002cf14        0x4 common/built-in.o
+                0x000000002002cf08        0x4 common/built-in.o
  .data.load_addr
-                0x000000002002cf18        0x4 common/built-in.o
-                0x000000002002cf18                load_addr
+                0x000000002002cf0c        0x4 common/built-in.o
+                0x000000002002cf0c                load_addr
  .data.stdio_names
-                0x000000002002cf1c        0xc common/built-in.o
-                0x000000002002cf1c                stdio_names
+                0x000000002002cf10        0xc common/built-in.o
+                0x000000002002cf10                stdio_names
  .data.nand_curr_device
-                0x000000002002cf28        0x4 drivers/mtd/nand/built-in.o
-                0x000000002002cf28                nand_curr_device
+                0x000000002002cf1c        0x4 drivers/mtd/nand/built-in.o
+                0x000000002002cf1c                nand_curr_device
  .data.bbt_mirror_descr
-                0x000000002002cf2c       0x24 drivers/mtd/nand/built-in.o
+                0x000000002002cf20       0x24 drivers/mtd/nand/built-in.o
  .data.mirror_pattern
-                0x000000002002cf50        0x4 drivers/mtd/nand/built-in.o
+                0x000000002002cf44        0x4 drivers/mtd/nand/built-in.o
  .data.bbt_main_no_oob_descr
-                0x000000002002cf54       0x24 drivers/mtd/nand/built-in.o
+                0x000000002002cf48       0x24 drivers/mtd/nand/built-in.o
  .data.bbt_pattern
-                0x000000002002cf78        0x4 drivers/mtd/nand/built-in.o
+                0x000000002002cf6c        0x4 drivers/mtd/nand/built-in.o
  .data.scan_agand_pattern
-                0x000000002002cf7c        0x6 drivers/mtd/nand/built-in.o
- *fill*         0x000000002002cf82        0x2 
+                0x000000002002cf70        0x6 drivers/mtd/nand/built-in.o
+ *fill*         0x000000002002cf76        0x2 
  .data.bbt_mirror_no_oob_descr
-                0x000000002002cf84       0x24 drivers/mtd/nand/built-in.o
+                0x000000002002cf78       0x24 drivers/mtd/nand/built-in.o
  .data.scan_ff_pattern
-                0x000000002002cfa8        0x2 drivers/mtd/nand/built-in.o
- *fill*         0x000000002002cfaa        0x2 
+                0x000000002002cf9c        0x2 drivers/mtd/nand/built-in.o
+ *fill*         0x000000002002cf9e        0x2 
  .data.bbt_main_descr
-                0x000000002002cfac       0x24 drivers/mtd/nand/built-in.o
+                0x000000002002cfa0       0x24 drivers/mtd/nand/built-in.o
  .data.agand_flashbased
-                0x000000002002cfd0       0x24 drivers/mtd/nand/built-in.o
+                0x000000002002cfc4       0x24 drivers/mtd/nand/built-in.o
  .data.nand_oob_8
-                0x000000002002cff4      0xb08 drivers/mtd/nand/built-in.o
+                0x000000002002cfe8      0xb08 drivers/mtd/nand/built-in.o
  .data.nand_oob_16
-                0x000000002002dafc      0xb08 drivers/mtd/nand/built-in.o
+                0x000000002002daf0      0xb08 drivers/mtd/nand/built-in.o
  .data.nand_oob_128
-                0x000000002002e604      0xb08 drivers/mtd/nand/built-in.o
+                0x000000002002e5f8      0xb08 drivers/mtd/nand/built-in.o
  .data.nand_oob_64
-                0x000000002002f10c     0x1610 drivers/mtd/nand/built-in.o
- .data          0x000000002003071c        0x8 drivers/serial/built-in.o
-                0x000000002003071c                config
+                0x000000002002f100     0x1610 drivers/mtd/nand/built-in.o
+ .data          0x0000000020030710        0x8 drivers/serial/built-in.o
+                0x0000000020030710                config
  .data.s5p_serial1_device
-                0x0000000020030724       0x30 drivers/serial/built-in.o
-                0x0000000020030724                s5p_serial1_device
+                0x0000000020030718       0x30 drivers/serial/built-in.o
+                0x0000000020030718                s5p_serial1_device
  .data.s5p_serial0_device
-                0x0000000020030754       0x30 drivers/serial/built-in.o
-                0x0000000020030754                s5p_serial0_device
+                0x0000000020030748       0x30 drivers/serial/built-in.o
+                0x0000000020030748                s5p_serial0_device
  .data.s5p_serial2_device
-                0x0000000020030784       0x30 drivers/serial/built-in.o
-                0x0000000020030784                s5p_serial2_device
+                0x0000000020030778       0x30 drivers/serial/built-in.o
+                0x0000000020030778                s5p_serial2_device
  .data.s5p_serial3_device
-                0x00000000200307b4       0x30 drivers/serial/built-in.o
-                0x00000000200307b4                s5p_serial3_device
- .data.fstypes  0x00000000200307e4       0x40 fs/built-in.o
+                0x00000000200307a8       0x30 drivers/serial/built-in.o
+                0x00000000200307a8                s5p_serial3_device
+ .data.fstypes  0x00000000200307d8       0x40 fs/built-in.o
  .data.NetOurNativeVLAN
-                0x0000000020030824        0x2 net/built-in.o
-                0x0000000020030824                NetOurNativeVLAN
- *fill*         0x0000000020030826        0x2 
+                0x0000000020030818        0x2 net/built-in.o
+                0x0000000020030818                NetOurNativeVLAN
+ *fill*         0x000000002003081a        0x2 
  .data.first_call.6570
-                0x0000000020030828        0x4 net/built-in.o
+                0x000000002003081c        0x4 net/built-in.o
  .data.NetBcastAddr
-                0x000000002003082c        0x6 net/built-in.o
-                0x000000002003082c                NetBcastAddr
+                0x0000000020030820        0x6 net/built-in.o
+                0x0000000020030820                NetBcastAddr
  .data.NetOurVLAN
-                0x0000000020030832        0x2 net/built-in.o
-                0x0000000020030832                NetOurVLAN
+                0x0000000020030826        0x2 net/built-in.o
+                0x0000000020030826                NetOurVLAN
  .data.nfs_offset
-                0x0000000020030834        0x4 net/built-in.o
+                0x0000000020030828        0x4 net/built-in.o
  .data.TftpTimeoutCountMax
-                0x0000000020030838        0x4 net/built-in.o
+                0x000000002003082c        0x4 net/built-in.o
  .data.TftpRRQTimeoutCountMax
-                0x000000002003083c        0x4 net/built-in.o
-                0x000000002003083c                TftpRRQTimeoutCountMax
+                0x0000000020030830        0x4 net/built-in.o
+                0x0000000020030830                TftpRRQTimeoutCountMax
  .data.TftpBlkSizeOption
-                0x0000000020030840        0x2 net/built-in.o
- *fill*         0x0000000020030842        0x2 
+                0x0000000020030834        0x2 net/built-in.o
+ *fill*         0x0000000020030836        0x2 
  .data.TftpTimeoutMSecs
-                0x0000000020030844        0x4 net/built-in.o
+                0x0000000020030838        0x4 net/built-in.o
  .data.TftpBlkSize
-                0x0000000020030848        0x2 net/built-in.o
+                0x000000002003083c        0x2 net/built-in.o
 
-.got            0x000000002003084c        0x0
- .got           0x000000002003084c        0x0 arch/arm/cpu/armv7/start.o
+.got            0x0000000020030840        0x0
+ .got           0x0000000020030840        0x0 arch/arm/cpu/armv7/start.o
 
-.got.plt        0x000000002003084c        0xc
- .got.plt       0x000000002003084c        0xc arch/arm/cpu/armv7/start.o
-                0x000000002003084c                _GLOBAL_OFFSET_TABLE_
+.got.plt        0x0000000020030840        0xc
+ .got.plt       0x0000000020030840        0xc arch/arm/cpu/armv7/start.o
+                0x0000000020030840                _GLOBAL_OFFSET_TABLE_
 
-.igot.plt       0x0000000020030858        0x0
- .igot.plt      0x0000000020030858        0x0 arch/arm/cpu/armv7/start.o
-                0x0000000020030858                . = ALIGN (0x4)
-                0x0000000020030858                . = .
-                0x0000000020030858                . = ALIGN (0x4)
+.igot.plt       0x000000002003084c        0x0
+ .igot.plt      0x000000002003084c        0x0 arch/arm/cpu/armv7/start.o
+                0x000000002003084c                . = ALIGN (0x4)
+                0x000000002003084c                . = .
+                0x000000002003084c                . = ALIGN (0x4)
 
-.u_boot_list    0x0000000020030858      0x650
+.u_boot_list    0x000000002003084c      0x650
  *(SORT(.u_boot_list*))
  .u_boot_list_2_cmd_1
-                0x0000000020030858        0x0 common/built-in.o
+                0x000000002003084c        0x0 common/built-in.o
  .u_boot_list_2_cmd_2_base
-                0x0000000020030858       0x1c common/built-in.o
-                0x0000000020030858                _u_boot_list_2_cmd_2_base
+                0x000000002003084c       0x1c common/built-in.o
+                0x000000002003084c                _u_boot_list_2_cmd_2_base
  .u_boot_list_2_cmd_2_bdinfo
-                0x0000000020030874       0x1c common/built-in.o
-                0x0000000020030874                _u_boot_list_2_cmd_2_bdinfo
+                0x0000000020030868       0x1c common/built-in.o
+                0x0000000020030868                _u_boot_list_2_cmd_2_bdinfo
  .u_boot_list_2_cmd_2_boot
-                0x0000000020030890       0x1c common/built-in.o
-                0x0000000020030890                _u_boot_list_2_cmd_2_boot
+                0x0000000020030884       0x1c common/built-in.o
+                0x0000000020030884                _u_boot_list_2_cmd_2_boot
  .u_boot_list_2_cmd_2_bootd
-                0x00000000200308ac       0x1c common/built-in.o
-                0x00000000200308ac                _u_boot_list_2_cmd_2_bootd
+                0x00000000200308a0       0x1c common/built-in.o
+                0x00000000200308a0                _u_boot_list_2_cmd_2_bootd
  .u_boot_list_2_cmd_2_bootelf
-                0x00000000200308c8       0x1c common/built-in.o
-                0x00000000200308c8                _u_boot_list_2_cmd_2_bootelf
+                0x00000000200308bc       0x1c common/built-in.o
+                0x00000000200308bc                _u_boot_list_2_cmd_2_bootelf
  .u_boot_list_2_cmd_2_bootm
-                0x00000000200308e4       0x1c common/built-in.o
-                0x00000000200308e4                _u_boot_list_2_cmd_2_bootm
+                0x00000000200308d8       0x1c common/built-in.o
+                0x00000000200308d8                _u_boot_list_2_cmd_2_bootm
  .u_boot_list_2_cmd_2_bootmenu
-                0x0000000020030900       0x1c common/built-in.o
-                0x0000000020030900                _u_boot_list_2_cmd_2_bootmenu
+                0x00000000200308f4       0x1c common/built-in.o
+                0x00000000200308f4                _u_boot_list_2_cmd_2_bootmenu
  .u_boot_list_2_cmd_2_bootp
-                0x000000002003091c       0x1c common/built-in.o
-                0x000000002003091c                _u_boot_list_2_cmd_2_bootp
+                0x0000000020030910       0x1c common/built-in.o
+                0x0000000020030910                _u_boot_list_2_cmd_2_bootp
  .u_boot_list_2_cmd_2_bootvx
-                0x0000000020030938       0x1c common/built-in.o
-                0x0000000020030938                _u_boot_list_2_cmd_2_bootvx
+                0x000000002003092c       0x1c common/built-in.o
+                0x000000002003092c                _u_boot_list_2_cmd_2_bootvx
  .u_boot_list_2_cmd_2_chpart
-                0x0000000020030954       0x1c common/built-in.o
-                0x0000000020030954                _u_boot_list_2_cmd_2_chpart
+                0x0000000020030948       0x1c common/built-in.o
+                0x0000000020030948                _u_boot_list_2_cmd_2_chpart
  .u_boot_list_2_cmd_2_cmp
-                0x0000000020030970       0x1c common/built-in.o
-                0x0000000020030970                _u_boot_list_2_cmd_2_cmp
+                0x0000000020030964       0x1c common/built-in.o
+                0x0000000020030964                _u_boot_list_2_cmd_2_cmp
  .u_boot_list_2_cmd_2_coninfo
-                0x000000002003098c       0x1c common/built-in.o
-                0x000000002003098c                _u_boot_list_2_cmd_2_coninfo
+                0x0000000020030980       0x1c common/built-in.o
+                0x0000000020030980                _u_boot_list_2_cmd_2_coninfo
  .u_boot_list_2_cmd_2_cp
-                0x00000000200309a8       0x1c common/built-in.o
-                0x00000000200309a8                _u_boot_list_2_cmd_2_cp
+                0x000000002003099c       0x1c common/built-in.o
+                0x000000002003099c                _u_boot_list_2_cmd_2_cp
  .u_boot_list_2_cmd_2_crc32
-                0x00000000200309c4       0x1c common/built-in.o
-                0x00000000200309c4                _u_boot_list_2_cmd_2_crc32
+                0x00000000200309b8       0x1c common/built-in.o
+                0x00000000200309b8                _u_boot_list_2_cmd_2_crc32
  .u_boot_list_2_cmd_2_dcache
-                0x00000000200309e0       0x1c common/built-in.o
-                0x00000000200309e0                _u_boot_list_2_cmd_2_dcache
+                0x00000000200309d4       0x1c common/built-in.o
+                0x00000000200309d4                _u_boot_list_2_cmd_2_dcache
  .u_boot_list_2_cmd_2_echo
-                0x00000000200309fc       0x1c common/built-in.o
-                0x00000000200309fc                _u_boot_list_2_cmd_2_echo
+                0x00000000200309f0       0x1c common/built-in.o
+                0x00000000200309f0                _u_boot_list_2_cmd_2_echo
  .u_boot_list_2_cmd_2_editenv
-                0x0000000020030a18       0x1c common/built-in.o
-                0x0000000020030a18                _u_boot_list_2_cmd_2_editenv
+                0x0000000020030a0c       0x1c common/built-in.o
+                0x0000000020030a0c                _u_boot_list_2_cmd_2_editenv
  .u_boot_list_2_cmd_2_env
-                0x0000000020030a34       0x1c common/built-in.o
-                0x0000000020030a34                _u_boot_list_2_cmd_2_env
+                0x0000000020030a28       0x1c common/built-in.o
+                0x0000000020030a28                _u_boot_list_2_cmd_2_env
  .u_boot_list_2_cmd_2_exit
-                0x0000000020030a50       0x1c common/built-in.o
-                0x0000000020030a50                _u_boot_list_2_cmd_2_exit
+                0x0000000020030a44       0x1c common/built-in.o
+                0x0000000020030a44                _u_boot_list_2_cmd_2_exit
  .u_boot_list_2_cmd_2_false
-                0x0000000020030a6c       0x1c common/built-in.o
-                0x0000000020030a6c                _u_boot_list_2_cmd_2_false
+                0x0000000020030a60       0x1c common/built-in.o
+                0x0000000020030a60                _u_boot_list_2_cmd_2_false
  .u_boot_list_2_cmd_2_fatinfo
-                0x0000000020030a88       0x1c common/built-in.o
-                0x0000000020030a88                _u_boot_list_2_cmd_2_fatinfo
+                0x0000000020030a7c       0x1c common/built-in.o
+                0x0000000020030a7c                _u_boot_list_2_cmd_2_fatinfo
  .u_boot_list_2_cmd_2_fatload
-                0x0000000020030aa4       0x1c common/built-in.o
-                0x0000000020030aa4                _u_boot_list_2_cmd_2_fatload
+                0x0000000020030a98       0x1c common/built-in.o
+                0x0000000020030a98                _u_boot_list_2_cmd_2_fatload
  .u_boot_list_2_cmd_2_fatls
-                0x0000000020030ac0       0x1c common/built-in.o
-                0x0000000020030ac0                _u_boot_list_2_cmd_2_fatls
+                0x0000000020030ab4       0x1c common/built-in.o
+                0x0000000020030ab4                _u_boot_list_2_cmd_2_fatls
  .u_boot_list_2_cmd_2_go
-                0x0000000020030adc       0x1c common/built-in.o
-                0x0000000020030adc                _u_boot_list_2_cmd_2_go
+                0x0000000020030ad0       0x1c common/built-in.o
+                0x0000000020030ad0                _u_boot_list_2_cmd_2_go
  .u_boot_list_2_cmd_2_help
-                0x0000000020030af8       0x1c common/built-in.o
-                0x0000000020030af8                _u_boot_list_2_cmd_2_help
+                0x0000000020030aec       0x1c common/built-in.o
+                0x0000000020030aec                _u_boot_list_2_cmd_2_help
  .u_boot_list_2_cmd_2_icache
-                0x0000000020030b14       0x1c common/built-in.o
-                0x0000000020030b14                _u_boot_list_2_cmd_2_icache
+                0x0000000020030b08       0x1c common/built-in.o
+                0x0000000020030b08                _u_boot_list_2_cmd_2_icache
  .u_boot_list_2_cmd_2_iminfo
-                0x0000000020030b30       0x1c common/built-in.o
-                0x0000000020030b30                _u_boot_list_2_cmd_2_iminfo
+                0x0000000020030b24       0x1c common/built-in.o
+                0x0000000020030b24                _u_boot_list_2_cmd_2_iminfo
  .u_boot_list_2_cmd_2_imxtract
-                0x0000000020030b4c       0x1c common/built-in.o
-                0x0000000020030b4c                _u_boot_list_2_cmd_2_imxtract
+                0x0000000020030b40       0x1c common/built-in.o
+                0x0000000020030b40                _u_boot_list_2_cmd_2_imxtract
  .u_boot_list_2_cmd_2_itest
-                0x0000000020030b68       0x1c common/built-in.o
-                0x0000000020030b68                _u_boot_list_2_cmd_2_itest
+                0x0000000020030b5c       0x1c common/built-in.o
+                0x0000000020030b5c                _u_boot_list_2_cmd_2_itest
  .u_boot_list_2_cmd_2_loadb
-                0x0000000020030b84       0x1c common/built-in.o
-                0x0000000020030b84                _u_boot_list_2_cmd_2_loadb
+                0x0000000020030b78       0x1c common/built-in.o
+                0x0000000020030b78                _u_boot_list_2_cmd_2_loadb
  .u_boot_list_2_cmd_2_loads
-                0x0000000020030ba0       0x1c common/built-in.o
-                0x0000000020030ba0                _u_boot_list_2_cmd_2_loads
+                0x0000000020030b94       0x1c common/built-in.o
+                0x0000000020030b94                _u_boot_list_2_cmd_2_loads
  .u_boot_list_2_cmd_2_loadx
-                0x0000000020030bbc       0x1c common/built-in.o
-                0x0000000020030bbc                _u_boot_list_2_cmd_2_loadx
+                0x0000000020030bb0       0x1c common/built-in.o
+                0x0000000020030bb0                _u_boot_list_2_cmd_2_loadx
  .u_boot_list_2_cmd_2_loady
-                0x0000000020030bd8       0x1c common/built-in.o
-                0x0000000020030bd8                _u_boot_list_2_cmd_2_loady
+                0x0000000020030bcc       0x1c common/built-in.o
+                0x0000000020030bcc                _u_boot_list_2_cmd_2_loady
  .u_boot_list_2_cmd_2_loop
-                0x0000000020030bf4       0x1c common/built-in.o
-                0x0000000020030bf4                _u_boot_list_2_cmd_2_loop
+                0x0000000020030be8       0x1c common/built-in.o
+                0x0000000020030be8                _u_boot_list_2_cmd_2_loop
  .u_boot_list_2_cmd_2_md
-                0x0000000020030c10       0x1c common/built-in.o
-                0x0000000020030c10                _u_boot_list_2_cmd_2_md
+                0x0000000020030c04       0x1c common/built-in.o
+                0x0000000020030c04                _u_boot_list_2_cmd_2_md
  .u_boot_list_2_cmd_2_mm
-                0x0000000020030c2c       0x1c common/built-in.o
-                0x0000000020030c2c                _u_boot_list_2_cmd_2_mm
+                0x0000000020030c20       0x1c common/built-in.o
+                0x0000000020030c20                _u_boot_list_2_cmd_2_mm
  .u_boot_list_2_cmd_2_mtdparts
-                0x0000000020030c48       0x1c common/built-in.o
-                0x0000000020030c48                _u_boot_list_2_cmd_2_mtdparts
+                0x0000000020030c3c       0x1c common/built-in.o
+                0x0000000020030c3c                _u_boot_list_2_cmd_2_mtdparts
  .u_boot_list_2_cmd_2_mw
-                0x0000000020030c64       0x1c common/built-in.o
-                0x0000000020030c64                _u_boot_list_2_cmd_2_mw
+                0x0000000020030c58       0x1c common/built-in.o
+                0x0000000020030c58                _u_boot_list_2_cmd_2_mw
  .u_boot_list_2_cmd_2_nand
-                0x0000000020030c80       0x1c common/built-in.o
-                0x0000000020030c80                _u_boot_list_2_cmd_2_nand
+                0x0000000020030c74       0x1c common/built-in.o
+                0x0000000020030c74                _u_boot_list_2_cmd_2_nand
  .u_boot_list_2_cmd_2_nboot
-                0x0000000020030c9c       0x1c common/built-in.o
-                0x0000000020030c9c                _u_boot_list_2_cmd_2_nboot
+                0x0000000020030c90       0x1c common/built-in.o
+                0x0000000020030c90                _u_boot_list_2_cmd_2_nboot
  .u_boot_list_2_cmd_2_nfs
-                0x0000000020030cb8       0x1c common/built-in.o
-                0x0000000020030cb8                _u_boot_list_2_cmd_2_nfs
+                0x0000000020030cac       0x1c common/built-in.o
+                0x0000000020030cac                _u_boot_list_2_cmd_2_nfs
  .u_boot_list_2_cmd_2_nm
-                0x0000000020030cd4       0x1c common/built-in.o
-                0x0000000020030cd4                _u_boot_list_2_cmd_2_nm
+                0x0000000020030cc8       0x1c common/built-in.o
+                0x0000000020030cc8                _u_boot_list_2_cmd_2_nm
  .u_boot_list_2_cmd_2_printenv
-                0x0000000020030cf0       0x1c common/built-in.o
-                0x0000000020030cf0                _u_boot_list_2_cmd_2_printenv
+                0x0000000020030ce4       0x1c common/built-in.o
+                0x0000000020030ce4                _u_boot_list_2_cmd_2_printenv
  .u_boot_list_2_cmd_2_question_mark
-                0x0000000020030d0c       0x1c common/built-in.o
-                0x0000000020030d0c                _u_boot_list_2_cmd_2_question_mark
+                0x0000000020030d00       0x1c common/built-in.o
+                0x0000000020030d00                _u_boot_list_2_cmd_2_question_mark
  .u_boot_list_2_cmd_2_reginfo
-                0x0000000020030d28       0x1c common/built-in.o
-                0x0000000020030d28                _u_boot_list_2_cmd_2_reginfo
+                0x0000000020030d1c       0x1c common/built-in.o
+                0x0000000020030d1c                _u_boot_list_2_cmd_2_reginfo
  .u_boot_list_2_cmd_2_reset
-                0x0000000020030d44       0x1c common/built-in.o
-                0x0000000020030d44                _u_boot_list_2_cmd_2_reset
+                0x0000000020030d38       0x1c common/built-in.o
+                0x0000000020030d38                _u_boot_list_2_cmd_2_reset
  .u_boot_list_2_cmd_2_run
-                0x0000000020030d60       0x1c common/built-in.o
-                0x0000000020030d60                _u_boot_list_2_cmd_2_run
+                0x0000000020030d54       0x1c common/built-in.o
+                0x0000000020030d54                _u_boot_list_2_cmd_2_run
  .u_boot_list_2_cmd_2_saveenv
-                0x0000000020030d7c       0x1c common/built-in.o
-                0x0000000020030d7c                _u_boot_list_2_cmd_2_saveenv
+                0x0000000020030d70       0x1c common/built-in.o
+                0x0000000020030d70                _u_boot_list_2_cmd_2_saveenv
  .u_boot_list_2_cmd_2_setenv
-                0x0000000020030d98       0x1c common/built-in.o
-                0x0000000020030d98                _u_boot_list_2_cmd_2_setenv
+                0x0000000020030d8c       0x1c common/built-in.o
+                0x0000000020030d8c                _u_boot_list_2_cmd_2_setenv
  .u_boot_list_2_cmd_2_showvar
-                0x0000000020030db4       0x1c common/built-in.o
-                0x0000000020030db4                _u_boot_list_2_cmd_2_showvar
+                0x0000000020030da8       0x1c common/built-in.o
+                0x0000000020030da8                _u_boot_list_2_cmd_2_showvar
  .u_boot_list_2_cmd_2_sleep
-                0x0000000020030dd0       0x1c common/built-in.o
-                0x0000000020030dd0                _u_boot_list_2_cmd_2_sleep
+                0x0000000020030dc4       0x1c common/built-in.o
+                0x0000000020030dc4                _u_boot_list_2_cmd_2_sleep
  .u_boot_list_2_cmd_2_source
-                0x0000000020030dec       0x1c common/built-in.o
-                0x0000000020030dec                _u_boot_list_2_cmd_2_source
+                0x0000000020030de0       0x1c common/built-in.o
+                0x0000000020030de0                _u_boot_list_2_cmd_2_source
  .u_boot_list_2_cmd_2_test
-                0x0000000020030e08       0x1c common/built-in.o
-                0x0000000020030e08                _u_boot_list_2_cmd_2_test
+                0x0000000020030dfc       0x1c common/built-in.o
+                0x0000000020030dfc                _u_boot_list_2_cmd_2_test
  .u_boot_list_2_cmd_2_tftpboot
-                0x0000000020030e24       0x1c common/built-in.o
-                0x0000000020030e24                _u_boot_list_2_cmd_2_tftpboot
+                0x0000000020030e18       0x1c common/built-in.o
+                0x0000000020030e18                _u_boot_list_2_cmd_2_tftpboot
  .u_boot_list_2_cmd_2_true
-                0x0000000020030e40       0x1c common/built-in.o
-                0x0000000020030e40                _u_boot_list_2_cmd_2_true
+                0x0000000020030e34       0x1c common/built-in.o
+                0x0000000020030e34                _u_boot_list_2_cmd_2_true
  .u_boot_list_2_cmd_2_version
-                0x0000000020030e5c       0x1c common/built-in.o
-                0x0000000020030e5c                _u_boot_list_2_cmd_2_version
+                0x0000000020030e50       0x1c common/built-in.o
+                0x0000000020030e50                _u_boot_list_2_cmd_2_version
  .u_boot_list_2_cmd_3
-                0x0000000020030e78        0x0 common/built-in.o
+                0x0000000020030e6c        0x0 common/built-in.o
  .u_boot_list_2_env_clbk_1
-                0x0000000020030e78        0x0 common/built-in.o
+                0x0000000020030e6c        0x0 common/built-in.o
  .u_boot_list_2_env_clbk_2_baudrate
-                0x0000000020030e78        0x8 drivers/serial/built-in.o
-                0x0000000020030e78                _u_boot_list_2_env_clbk_2_baudrate
+                0x0000000020030e6c        0x8 drivers/serial/built-in.o
+                0x0000000020030e6c                _u_boot_list_2_env_clbk_2_baudrate
  .u_boot_list_2_env_clbk_2_bootfile
-                0x0000000020030e80        0x8 net/built-in.o
-                0x0000000020030e80                _u_boot_list_2_env_clbk_2_bootfile
+                0x0000000020030e74        0x8 net/built-in.o
+                0x0000000020030e74                _u_boot_list_2_env_clbk_2_bootfile
  .u_boot_list_2_env_clbk_2_callbacks
-                0x0000000020030e88        0x8 common/built-in.o
-                0x0000000020030e88                _u_boot_list_2_env_clbk_2_callbacks
+                0x0000000020030e7c        0x8 common/built-in.o
+                0x0000000020030e7c                _u_boot_list_2_env_clbk_2_callbacks
  .u_boot_list_2_env_clbk_2_console
-                0x0000000020030e90        0x8 common/built-in.o
-                0x0000000020030e90                _u_boot_list_2_env_clbk_2_console
+                0x0000000020030e84        0x8 common/built-in.o
+                0x0000000020030e84                _u_boot_list_2_env_clbk_2_console
  .u_boot_list_2_env_clbk_2_flags
-                0x0000000020030e98        0x8 common/built-in.o
-                0x0000000020030e98                _u_boot_list_2_env_clbk_2_flags
+                0x0000000020030e8c        0x8 common/built-in.o
+                0x0000000020030e8c                _u_boot_list_2_env_clbk_2_flags
  .u_boot_list_2_env_clbk_2_loadaddr
-                0x0000000020030ea0        0x8 common/built-in.o
-                0x0000000020030ea0                _u_boot_list_2_env_clbk_2_loadaddr
+                0x0000000020030e94        0x8 common/built-in.o
+                0x0000000020030e94                _u_boot_list_2_env_clbk_2_loadaddr
  .u_boot_list_2_env_clbk_3
-                0x0000000020030ea8        0x0 common/built-in.o
-                0x0000000020030ea8                . = ALIGN (0x4)
+                0x0000000020030e9c        0x0 common/built-in.o
+                0x0000000020030e9c                . = ALIGN (0x4)
 
 .image_copy_end
-                0x0000000020030ea8        0x0
+                0x0000000020030e9c        0x0
  *(.__image_copy_end)
  .__image_copy_end
-                0x0000000020030ea8        0x0 arch/arm/lib/built-in.o
+                0x0000000020030e9c        0x0 arch/arm/lib/built-in.o
 
-.rel_dyn_start  0x0000000020030ea8        0x0
+.rel_dyn_start  0x0000000020030e9c        0x0
  *(.__rel_dyn_start)
  .__rel_dyn_start
-                0x0000000020030ea8        0x0 arch/arm/lib/built-in.o
+                0x0000000020030e9c        0x0 arch/arm/lib/built-in.o
 
-.rel.dyn        0x0000000020030ea8     0x5488
+.rel.dyn        0x0000000020030e9c     0x5488
  *(.rel*)
- .rel.got       0x0000000020030ea8        0x0 arch/arm/cpu/armv7/start.o
- .rel.plt       0x0000000020030ea8        0x0 arch/arm/cpu/armv7/start.o
- .rel.bss       0x0000000020030ea8        0x0 arch/arm/cpu/armv7/start.o
+ .rel.got       0x0000000020030e9c        0x0 arch/arm/cpu/armv7/start.o
+ .rel.plt       0x0000000020030e9c        0x0 arch/arm/cpu/armv7/start.o
+ .rel.bss       0x0000000020030e9c        0x0 arch/arm/cpu/armv7/start.o
  .rel.data.rel.ro
-                0x0000000020030ea8        0x0 arch/arm/cpu/armv7/start.o
- .rel.iplt      0x0000000020030ea8        0x0 arch/arm/cpu/armv7/start.o
- .rel.text      0x0000000020030ea8       0x78 arch/arm/cpu/armv7/start.o
+                0x0000000020030e9c        0x0 arch/arm/cpu/armv7/start.o
+ .rel.iplt      0x0000000020030e9c        0x0 arch/arm/cpu/armv7/start.o
+ .rel.text      0x0000000020030e9c       0x78 arch/arm/cpu/armv7/start.o
  .rel.text.invalidate_dcache_range
-                0x0000000020030f20        0x0 arch/arm/cpu/armv7/start.o
+                0x0000000020030f14        0x0 arch/arm/cpu/armv7/start.o
  .rel.text.arch_cpu_init
-                0x0000000020030f20       0x10 arch/arm/cpu/armv7/start.o
+                0x0000000020030f14       0x10 arch/arm/cpu/armv7/start.o
  .rel.text.get_device_type
-                0x0000000020030f30        0x0 arch/arm/cpu/armv7/start.o
+                0x0000000020030f24        0x0 arch/arm/cpu/armv7/start.o
  .rel.text.print_cpuinfo
-                0x0000000020030f30       0x18 arch/arm/cpu/armv7/start.o
+                0x0000000020030f24       0x18 arch/arm/cpu/armv7/start.o
  .rel.text.timer_get_us
-                0x0000000020030f48        0x0 arch/arm/cpu/armv7/start.o
+                0x0000000020030f3c        0x0 arch/arm/cpu/armv7/start.o
  .rel.text.get_pll_clk
-                0x0000000020030f48       0x58 arch/arm/cpu/armv7/start.o
+                0x0000000020030f3c       0x58 arch/arm/cpu/armv7/start.o
  .rel.text.get_arm_clk
-                0x0000000020030fa0        0x8 arch/arm/cpu/armv7/start.o
+                0x0000000020030f94        0x8 arch/arm/cpu/armv7/start.o
  .rel.text.get_pwm_clk
-                0x0000000020030fa8        0x8 arch/arm/cpu/armv7/start.o
+                0x0000000020030f9c        0x8 arch/arm/cpu/armv7/start.o
  .rel.text.get_uart_clk
-                0x0000000020030fb0        0x8 arch/arm/cpu/armv7/start.o
+                0x0000000020030fa4        0x8 arch/arm/cpu/armv7/start.o
  .rel.text.display_banner
-                0x0000000020030fb8       0x10 arch/arm/cpu/armv7/start.o
+                0x0000000020030fac       0x10 arch/arm/cpu/armv7/start.o
  .rel.text.init_baudrate
-                0x0000000020030fc8        0x8 arch/arm/cpu/armv7/start.o
+                0x0000000020030fbc        0x8 arch/arm/cpu/armv7/start.o
  .rel.text.board_init_f
-                0x0000000020030fd0       0x38 arch/arm/cpu/armv7/start.o
+                0x0000000020030fc4       0x38 arch/arm/cpu/armv7/start.o
  .rel.text.board_init_r
-                0x0000000020031008       0x38 arch/arm/cpu/armv7/start.o
+                0x0000000020030ffc       0x38 arch/arm/cpu/armv7/start.o
  .rel.text.boot_jump_linux.isra.5
-                0x0000000020031040       0x28 arch/arm/cpu/armv7/start.o
+                0x0000000020031034       0x28 arch/arm/cpu/armv7/start.o
  .rel.text.boot_prep_linux
-                0x0000000020031068       0x10 arch/arm/cpu/armv7/start.o
+                0x000000002003105c       0x10 arch/arm/cpu/armv7/start.o
  .rel.text.interrupt_init
-                0x0000000020031078        0x8 arch/arm/cpu/armv7/start.o
+                0x000000002003106c        0x8 arch/arm/cpu/armv7/start.o
  .rel.text.bad_mode
-                0x0000000020031080        0x8 arch/arm/cpu/armv7/start.o
+                0x0000000020031074        0x8 arch/arm/cpu/armv7/start.o
  .rel.text.show_regs
-                0x0000000020031088       0x50 arch/arm/cpu/armv7/start.o
+                0x000000002003107c       0x50 arch/arm/cpu/armv7/start.o
  .rel.text.do_undefined_instruction
-                0x00000000200310d8        0x8 arch/arm/cpu/armv7/start.o
+                0x00000000200310cc        0x8 arch/arm/cpu/armv7/start.o
  .rel.text.do_software_interrupt
-                0x00000000200310e0        0x8 arch/arm/cpu/armv7/start.o
+                0x00000000200310d4        0x8 arch/arm/cpu/armv7/start.o
  .rel.text.do_prefetch_abort
-                0x00000000200310e8        0x8 arch/arm/cpu/armv7/start.o
+                0x00000000200310dc        0x8 arch/arm/cpu/armv7/start.o
  .rel.text.do_data_abort
-                0x00000000200310f0        0x8 arch/arm/cpu/armv7/start.o
+                0x00000000200310e4        0x8 arch/arm/cpu/armv7/start.o
  .rel.text.do_not_used
-                0x00000000200310f8        0x8 arch/arm/cpu/armv7/start.o
+                0x00000000200310ec        0x8 arch/arm/cpu/armv7/start.o
  .rel.text.do_fiq
-                0x0000000020031100        0x8 arch/arm/cpu/armv7/start.o
+                0x00000000200310f4        0x8 arch/arm/cpu/armv7/start.o
  .rel.text.do_irq
-                0x0000000020031108        0x8 arch/arm/cpu/armv7/start.o
+                0x00000000200310fc        0x8 arch/arm/cpu/armv7/start.o
  .rel.text.do_reset
-                0x0000000020031110        0x8 arch/arm/cpu/armv7/start.o
+                0x0000000020031104        0x8 arch/arm/cpu/armv7/start.o
  .rel.text.__enable_caches
-                0x0000000020031118        0x8 arch/arm/cpu/armv7/start.o
- .rel.rodata    0x0000000020031120      0x100 arch/arm/cpu/armv7/start.o
+                0x000000002003110c        0x8 arch/arm/cpu/armv7/start.o
+ .rel.rodata    0x0000000020031114      0x100 arch/arm/cpu/armv7/start.o
  .rel.data.init_sequence
-                0x0000000020031220       0x58 arch/arm/cpu/armv7/start.o
+                0x0000000020031214       0x58 arch/arm/cpu/armv7/start.o
  .rel.text.checkboard
-                0x0000000020031278        0x8 arch/arm/cpu/armv7/start.o
+                0x000000002003126c        0x8 arch/arm/cpu/armv7/start.o
  .rel.text.delete_char.part.0
-                0x0000000020031280       0x10 arch/arm/cpu/armv7/start.o
+                0x0000000020031274       0x10 arch/arm/cpu/armv7/start.o
  .rel.text.cread_add_char
-                0x0000000020031290        0x8 arch/arm/cpu/armv7/start.o
+                0x0000000020031284        0x8 arch/arm/cpu/armv7/start.o
  .rel.text.readline_into_buffer
-                0x0000000020031298       0xb0 arch/arm/cpu/armv7/start.o
+                0x000000002003128c       0xb0 arch/arm/cpu/armv7/start.o
  .rel.text.readline
-                0x0000000020031348        0x8 arch/arm/cpu/armv7/start.o
+                0x000000002003133c        0x8 arch/arm/cpu/armv7/start.o
  .rel.text.parse_line
-                0x0000000020031350        0x0 arch/arm/cpu/armv7/start.o
+                0x0000000020031344        0x0 arch/arm/cpu/armv7/start.o
  .rel.text.main_loop
-                0x0000000020031350       0x30 arch/arm/cpu/armv7/start.o
+                0x0000000020031344       0x30 arch/arm/cpu/armv7/start.o
  .rel.text.do_run
-                0x0000000020031380        0x8 arch/arm/cpu/armv7/start.o
+                0x0000000020031374        0x8 arch/arm/cpu/armv7/start.o
  .rel.text.find_cmd
-                0x0000000020031388       0x10 arch/arm/cpu/armv7/start.o
+                0x000000002003137c       0x10 arch/arm/cpu/armv7/start.o
  .rel.text.cmd_usage
-                0x0000000020031398       0x18 arch/arm/cpu/armv7/start.o
+                0x000000002003138c       0x18 arch/arm/cpu/armv7/start.o
  .rel.text._do_help
-                0x00000000200313b0       0x10 arch/arm/cpu/armv7/start.o
+                0x00000000200313a4       0x10 arch/arm/cpu/armv7/start.o
  .rel.text.var_complete
-                0x00000000200313c0       0x10 arch/arm/cpu/armv7/start.o
+                0x00000000200313b4       0x10 arch/arm/cpu/armv7/start.o
  .rel.text.cmd_auto_complete
-                0x00000000200313d0       0x48 arch/arm/cpu/armv7/start.o
+                0x00000000200313c4       0x48 arch/arm/cpu/armv7/start.o
  .rel.text.cmd_get_data_size
-                0x0000000020031418        0x8 arch/arm/cpu/armv7/start.o
+                0x000000002003140c        0x8 arch/arm/cpu/armv7/start.o
  .rel.text.cmd_process
-                0x0000000020031420       0x18 arch/arm/cpu/armv7/start.o
+                0x0000000020031414       0x18 arch/arm/cpu/armv7/start.o
  .rel.text.cmd_process_error
-                0x0000000020031438        0x0 arch/arm/cpu/armv7/start.o
+                0x000000002003142c        0x0 arch/arm/cpu/armv7/start.o
  .rel.text.jumptable_init
-                0x0000000020031438       0x98 arch/arm/cpu/armv7/start.o
+                0x000000002003142c       0x98 arch/arm/cpu/armv7/start.o
  .rel.text.hash_block
-                0x00000000200314d0        0x0 arch/arm/cpu/armv7/start.o
+                0x00000000200314c4        0x0 arch/arm/cpu/armv7/start.o
  .rel.text.hash_command
-                0x00000000200314d0        0x8 arch/arm/cpu/armv7/start.o
+                0x00000000200314c4        0x8 arch/arm/cpu/armv7/start.o
  .rel.text.mapset
-                0x00000000200314d8        0x8 arch/arm/cpu/armv7/start.o
+                0x00000000200314cc        0x8 arch/arm/cpu/armv7/start.o
  .rel.text.syntax_err
-                0x00000000200314e0        0x8 arch/arm/cpu/armv7/start.o
+                0x00000000200314d4        0x8 arch/arm/cpu/armv7/start.o
  .rel.text.xmalloc
-                0x00000000200314e8        0x8 arch/arm/cpu/armv7/start.o
+                0x00000000200314dc        0x8 arch/arm/cpu/armv7/start.o
  .rel.text.xrealloc
-                0x00000000200314f0        0x8 arch/arm/cpu/armv7/start.o
+                0x00000000200314e4        0x8 arch/arm/cpu/armv7/start.o
  .rel.text.done_word
-                0x00000000200314f8        0x8 arch/arm/cpu/armv7/start.o
+                0x00000000200314ec        0x8 arch/arm/cpu/armv7/start.o
  .rel.text.do_showvar
-                0x0000000020031500       0x20 arch/arm/cpu/armv7/start.o
+                0x00000000200314f4       0x20 arch/arm/cpu/armv7/start.o
  .rel.text.is_assignment
-                0x0000000020031520        0x8 arch/arm/cpu/armv7/start.o
+                0x0000000020031514        0x8 arch/arm/cpu/armv7/start.o
  .rel.text.file_get
-                0x0000000020031528       0x30 arch/arm/cpu/armv7/start.o
+                0x000000002003151c       0x30 arch/arm/cpu/armv7/start.o
  .rel.text.b_addqchr
-                0x0000000020031558        0x8 arch/arm/cpu/armv7/start.o
+                0x000000002003154c        0x8 arch/arm/cpu/armv7/start.o
  .rel.text.get_local_var
-                0x0000000020031560       0x20 arch/arm/cpu/armv7/start.o
+                0x0000000020031554       0x20 arch/arm/cpu/armv7/start.o
  .rel.text.set_local_var
-                0x0000000020031580       0x20 arch/arm/cpu/armv7/start.o
+                0x0000000020031574       0x20 arch/arm/cpu/armv7/start.o
  .rel.text.insert_var_value_sub
-                0x00000000200315a0        0x8 arch/arm/cpu/armv7/start.o
+                0x0000000020031594        0x8 arch/arm/cpu/armv7/start.o
  .rel.text.unset_local_var
-                0x00000000200315a8        0x0 arch/arm/cpu/armv7/start.o
+                0x000000002003159c        0x0 arch/arm/cpu/armv7/start.o
  .rel.text.parse_string_outer
-                0x00000000200315a8       0x18 arch/arm/cpu/armv7/start.o
+                0x000000002003159c       0x18 arch/arm/cpu/armv7/start.o
  .rel.text.run_list_real
-                0x00000000200315c0       0x40 arch/arm/cpu/armv7/start.o
+                0x00000000200315b4       0x40 arch/arm/cpu/armv7/start.o
  .rel.text.parse_stream_outer
-                0x0000000020031600       0x60 arch/arm/cpu/armv7/start.o
+                0x00000000200315f4       0x60 arch/arm/cpu/armv7/start.o
  .rel.text.parse_file_outer
-                0x0000000020031660       0x10 arch/arm/cpu/armv7/start.o
+                0x0000000020031654       0x10 arch/arm/cpu/armv7/start.o
  .rel.text.u_boot_hush_start
-                0x0000000020031670       0x18 arch/arm/cpu/armv7/start.o
+                0x0000000020031664       0x18 arch/arm/cpu/armv7/start.o
  .rel.text.srec_decode
-                0x0000000020031688       0x50 arch/arm/cpu/armv7/start.o
+                0x000000002003167c       0x50 arch/arm/cpu/armv7/start.o
  .rel.text.xyzModem_get_hdr
-                0x00000000200316d8       0x30 arch/arm/cpu/armv7/start.o
+                0x00000000200316cc       0x30 arch/arm/cpu/armv7/start.o
  .rel.text.xyzModem_stream_open
-                0x0000000020031708       0x10 arch/arm/cpu/armv7/start.o
+                0x00000000200316fc       0x10 arch/arm/cpu/armv7/start.o
  .rel.text.xyzModem_stream_read
-                0x0000000020031718        0x8 arch/arm/cpu/armv7/start.o
+                0x000000002003170c        0x8 arch/arm/cpu/armv7/start.o
  .rel.text.xyzModem_stream_close
-                0x0000000020031720       0x20 arch/arm/cpu/armv7/start.o
+                0x0000000020031714       0x20 arch/arm/cpu/armv7/start.o
  .rel.text.xyzModem_stream_terminate
-                0x0000000020031740        0x8 arch/arm/cpu/armv7/start.o
+                0x0000000020031734        0x8 arch/arm/cpu/armv7/start.o
  .rel.text.xyzModem_error
-                0x0000000020031748       0x10 arch/arm/cpu/armv7/start.o
+                0x000000002003173c       0x10 arch/arm/cpu/armv7/start.o
  .rel.text.do_go
-                0x0000000020031758       0x10 arch/arm/cpu/armv7/start.o
+                0x000000002003174c       0x10 arch/arm/cpu/armv7/start.o
  .rel.text.image_info
-                0x0000000020031768       0x40 arch/arm/cpu/armv7/start.o
+                0x000000002003175c       0x40 arch/arm/cpu/armv7/start.o
  .rel.text.do_bootd
-                0x00000000200317a8        0x8 arch/arm/cpu/armv7/start.o
+                0x000000002003179c        0x8 arch/arm/cpu/armv7/start.o
  .rel.text.do_bootm_rtems
-                0x00000000200317b0        0x8 arch/arm/cpu/armv7/start.o
+                0x00000000200317a4        0x8 arch/arm/cpu/armv7/start.o
  .rel.text.do_bootm_plan9
-                0x00000000200317b8       0x18 arch/arm/cpu/armv7/start.o
+                0x00000000200317ac       0x18 arch/arm/cpu/armv7/start.o
  .rel.text.do_bootm_standalone
-                0x00000000200317d0       0x18 arch/arm/cpu/armv7/start.o
+                0x00000000200317c4       0x18 arch/arm/cpu/armv7/start.o
  .rel.text.do_bootm_qnxelf
-                0x00000000200317e8        0x8 arch/arm/cpu/armv7/start.o
+                0x00000000200317dc        0x8 arch/arm/cpu/armv7/start.o
  .rel.text.do_bootm_netbsd
-                0x00000000200317f0       0x18 arch/arm/cpu/armv7/start.o
+                0x00000000200317e4       0x18 arch/arm/cpu/armv7/start.o
  .rel.text.do_iminfo
-                0x0000000020031808        0x8 arch/arm/cpu/armv7/start.o
+                0x00000000200317fc        0x8 arch/arm/cpu/armv7/start.o
  .rel.text.do_bootm_states.isra.21.constprop.22
-                0x0000000020031810       0xf0 arch/arm/cpu/armv7/start.o
+                0x0000000020031804       0xf0 arch/arm/cpu/armv7/start.o
  .rel.text.do_bootm
-                0x0000000020031900       0x18 arch/arm/cpu/armv7/start.o
+                0x00000000200318f4       0x18 arch/arm/cpu/armv7/start.o
  .rel.text.bootm_maybe_autostart
-                0x0000000020031918       0x20 arch/arm/cpu/armv7/start.o
+                0x000000002003190c       0x20 arch/arm/cpu/armv7/start.o
  .rel.text.do_bootvx_fdt
-                0x0000000020031938       0x10 arch/arm/cpu/armv7/start.o
+                0x000000002003192c       0x10 arch/arm/cpu/armv7/start.o
  .rel.text.do_help
-                0x0000000020031948       0x10 arch/arm/cpu/armv7/start.o
+                0x000000002003193c       0x10 arch/arm/cpu/armv7/start.o
  .rel.text.do_version
-                0x0000000020031958       0x20 arch/arm/cpu/armv7/start.o
+                0x000000002003194c       0x20 arch/arm/cpu/armv7/start.o
  .rel.text.env_attr_lookup
-                0x0000000020031978        0x8 arch/arm/cpu/armv7/start.o
+                0x000000002003196c        0x8 arch/arm/cpu/armv7/start.o
  .rel.text.find_env_callback
-                0x0000000020031980       0x10 arch/arm/cpu/armv7/start.o
+                0x0000000020031974       0x10 arch/arm/cpu/armv7/start.o
  .rel.text.on_callbacks
-                0x0000000020031990       0x20 arch/arm/cpu/armv7/start.o
+                0x0000000020031984       0x20 arch/arm/cpu/armv7/start.o
  .rel.text.set_callback
-                0x00000000200319b0        0x8 arch/arm/cpu/armv7/start.o
+                0x00000000200319a4        0x8 arch/arm/cpu/armv7/start.o
  .rel.text.env_callback_init
-                0x00000000200319b8       0x20 arch/arm/cpu/armv7/start.o
+                0x00000000200319ac       0x20 arch/arm/cpu/armv7/start.o
  .rel.text.skip_num
-                0x00000000200319d8        0x8 arch/arm/cpu/armv7/start.o
+                0x00000000200319cc        0x8 arch/arm/cpu/armv7/start.o
  .rel.text.on_flags
-                0x00000000200319e0       0x20 arch/arm/cpu/armv7/start.o
+                0x00000000200319d4       0x20 arch/arm/cpu/armv7/start.o
  .rel.text.env_flags_parse_vartype
-                0x0000000020031a00       0x10 arch/arm/cpu/armv7/start.o
+                0x00000000200319f4       0x10 arch/arm/cpu/armv7/start.o
  .rel.text.env_flags_parse_varaccess
-                0x0000000020031a10       0x10 arch/arm/cpu/armv7/start.o
+                0x0000000020031a04       0x10 arch/arm/cpu/armv7/start.o
  .rel.text.set_flags
-                0x0000000020031a20       0x10 arch/arm/cpu/armv7/start.o
+                0x0000000020031a14       0x10 arch/arm/cpu/armv7/start.o
  .rel.text.env_flags_init
-                0x0000000020031a30       0x30 arch/arm/cpu/armv7/start.o
+                0x0000000020031a24       0x30 arch/arm/cpu/armv7/start.o
  .rel.text.env_flags_validate
-                0x0000000020031a60       0x68 arch/arm/cpu/armv7/start.o
+                0x0000000020031a54       0x68 arch/arm/cpu/armv7/start.o
  .rel.text.env_init
-                0x0000000020031ac8        0x8 arch/arm/cpu/armv7/start.o
+                0x0000000020031abc        0x8 arch/arm/cpu/armv7/start.o
  .rel.text.writeenv
-                0x0000000020031ad0        0x8 arch/arm/cpu/armv7/start.o
+                0x0000000020031ac4        0x8 arch/arm/cpu/armv7/start.o
  .rel.text.saveenv
-                0x0000000020031ad8       0x60 arch/arm/cpu/armv7/start.o
+                0x0000000020031acc       0x60 arch/arm/cpu/armv7/start.o
  .rel.text.readenv
-                0x0000000020031b38        0x8 arch/arm/cpu/armv7/start.o
+                0x0000000020031b2c        0x8 arch/arm/cpu/armv7/start.o
  .rel.text.env_relocate_spec
-                0x0000000020031b40        0x8 arch/arm/cpu/armv7/start.o
+                0x0000000020031b34        0x8 arch/arm/cpu/armv7/start.o
  .rel.text.source
-                0x0000000020031b48       0x38 arch/arm/cpu/armv7/start.o
+                0x0000000020031b3c       0x38 arch/arm/cpu/armv7/start.o
  .rel.text.do_source
-                0x0000000020031b80        0x8 arch/arm/cpu/armv7/start.o
+                0x0000000020031b74        0x8 arch/arm/cpu/armv7/start.o
  .rel.text.print_num
-                0x0000000020031b88        0x8 arch/arm/cpu/armv7/start.o
+                0x0000000020031b7c        0x8 arch/arm/cpu/armv7/start.o
  .rel.text.do_bdinfo
-                0x0000000020031b90       0x98 arch/arm/cpu/armv7/start.o
+                0x0000000020031b84       0x98 arch/arm/cpu/armv7/start.o
  .rel.text.bootmenu_print_entry
-                0x0000000020031c28       0x20 arch/arm/cpu/armv7/start.o
+                0x0000000020031c1c       0x20 arch/arm/cpu/armv7/start.o
  .rel.text.bootmenu_choice_entry
-                0x0000000020031c48       0x40 arch/arm/cpu/armv7/start.o
+                0x0000000020031c3c       0x40 arch/arm/cpu/armv7/start.o
  .rel.text.bootmenu_show
-                0x0000000020031c88       0x70 arch/arm/cpu/armv7/start.o
+                0x0000000020031c7c       0x70 arch/arm/cpu/armv7/start.o
  .rel.text.do_bootmenu
-                0x0000000020031cf8        0x8 arch/arm/cpu/armv7/start.o
+                0x0000000020031cec        0x8 arch/arm/cpu/armv7/start.o
  .rel.text.menu_display_statusline
-                0x0000000020031d00       0x28 arch/arm/cpu/armv7/start.o
+                0x0000000020031cf4       0x28 arch/arm/cpu/armv7/start.o
  .rel.text.parse_argv
-                0x0000000020031d28       0x18 arch/arm/cpu/armv7/start.o
+                0x0000000020031d1c       0x18 arch/arm/cpu/armv7/start.o
  .rel.text.invalidate_icache_all
-                0x0000000020031d40        0x0 arch/arm/cpu/armv7/start.o
+                0x0000000020031d34        0x0 arch/arm/cpu/armv7/start.o
  .rel.text.do_icache
-                0x0000000020031d40       0x18 arch/arm/cpu/armv7/start.o
+                0x0000000020031d34       0x18 arch/arm/cpu/armv7/start.o
  .rel.text.flush_dcache_all
-                0x0000000020031d58        0x0 arch/arm/cpu/armv7/start.o
+                0x0000000020031d4c        0x0 arch/arm/cpu/armv7/start.o
  .rel.text.do_dcache
-                0x0000000020031d58       0x18 arch/arm/cpu/armv7/start.o
+                0x0000000020031d4c       0x18 arch/arm/cpu/armv7/start.o
  .rel.text.do_coninfo
-                0x0000000020031d70       0x28 arch/arm/cpu/armv7/start.o
+                0x0000000020031d64       0x28 arch/arm/cpu/armv7/start.o
  .rel.text.do_echo
-                0x0000000020031d98        0x8 arch/arm/cpu/armv7/start.o
+                0x0000000020031d8c        0x8 arch/arm/cpu/armv7/start.o
  .rel.text.valid_elf_image
-                0x0000000020031da0       0x10 arch/arm/cpu/armv7/start.o
+                0x0000000020031d94       0x10 arch/arm/cpu/armv7/start.o
  .rel.text.do_bootelf
-                0x0000000020031db0       0x18 arch/arm/cpu/armv7/start.o
+                0x0000000020031da4       0x18 arch/arm/cpu/armv7/start.o
  .rel.text.do_bootvx
-                0x0000000020031dc8       0xa8 arch/arm/cpu/armv7/start.o
+                0x0000000020031dbc       0xa8 arch/arm/cpu/armv7/start.o
  .rel.text.do_fat_fsinfo
-                0x0000000020031e70       0x10 arch/arm/cpu/armv7/start.o
+                0x0000000020031e64       0x10 arch/arm/cpu/armv7/start.o
  .rel.text.binary_test
-                0x0000000020031e80       0x70 arch/arm/cpu/armv7/start.o
+                0x0000000020031e74       0x70 arch/arm/cpu/armv7/start.o
  .rel.text.do_itest
-                0x0000000020031ef0       0x40 arch/arm/cpu/armv7/start.o
+                0x0000000020031ee4       0x40 arch/arm/cpu/armv7/start.o
  .rel.text.bin_data_init
-                0x0000000020031f30       0x18 arch/arm/cpu/armv7/start.o
+                0x0000000020031f24       0x18 arch/arm/cpu/armv7/start.o
  .rel.text.k_data_save
-                0x0000000020031f48       0x30 arch/arm/cpu/armv7/start.o
+                0x0000000020031f3c       0x30 arch/arm/cpu/armv7/start.o
  .rel.text.k_data_restore
-                0x0000000020031f78       0x30 arch/arm/cpu/armv7/start.o
+                0x0000000020031f6c       0x30 arch/arm/cpu/armv7/start.o
  .rel.text.load_serial_ymodem
-                0x0000000020031fa8       0x20 arch/arm/cpu/armv7/start.o
+                0x0000000020031f9c       0x20 arch/arm/cpu/armv7/start.o
  .rel.text.bin_data_char
-                0x0000000020031fc8       0x10 arch/arm/cpu/armv7/start.o
+                0x0000000020031fbc       0x10 arch/arm/cpu/armv7/start.o
  .rel.text.chk1.constprop.1
-                0x0000000020031fd8        0x8 arch/arm/cpu/armv7/start.o
+                0x0000000020031fcc        0x8 arch/arm/cpu/armv7/start.o
  .rel.text.s1_sendpacket.constprop.2
-                0x0000000020031fe0       0x18 arch/arm/cpu/armv7/start.o
+                0x0000000020031fd4       0x18 arch/arm/cpu/armv7/start.o
  .rel.text.load_serial
-                0x0000000020031ff8       0x68 arch/arm/cpu/armv7/start.o
+                0x0000000020031fec       0x68 arch/arm/cpu/armv7/start.o
  .rel.text.do_load_serial
-                0x0000000020032060       0x30 arch/arm/cpu/armv7/start.o
+                0x0000000020032054       0x30 arch/arm/cpu/armv7/start.o
  .rel.text.do_load_serial_bin
-                0x0000000020032090       0xe8 arch/arm/cpu/armv7/start.o
+                0x0000000020032084       0xe8 arch/arm/cpu/armv7/start.o
  .rel.text.do_mem_mw
-                0x0000000020032178        0x8 arch/arm/cpu/armv7/start.o
+                0x000000002003216c        0x8 arch/arm/cpu/armv7/start.o
  .rel.text.do_mem_md
-                0x0000000020032180       0x20 arch/arm/cpu/armv7/start.o
+                0x0000000020032174       0x20 arch/arm/cpu/armv7/start.o
  .rel.text.do_mem_cmp
-                0x00000000200321a0       0x38 arch/arm/cpu/armv7/start.o
+                0x0000000020032194       0x38 arch/arm/cpu/armv7/start.o
  .rel.text.do_mem_base
-                0x00000000200321d8       0x10 arch/arm/cpu/armv7/start.o
+                0x00000000200321cc       0x10 arch/arm/cpu/armv7/start.o
  .rel.text.do_mem_cp
-                0x00000000200321e8       0x10 arch/arm/cpu/armv7/start.o
+                0x00000000200321dc       0x10 arch/arm/cpu/armv7/start.o
  .rel.text.do_mem_crc
-                0x00000000200321f8        0x8 arch/arm/cpu/armv7/start.o
+                0x00000000200321ec        0x8 arch/arm/cpu/armv7/start.o
  .rel.text.mod_mem.isra.2
-                0x0000000020032200       0x48 arch/arm/cpu/armv7/start.o
+                0x00000000200321f4       0x48 arch/arm/cpu/armv7/start.o
  .rel.text.mtd_part_info
-                0x0000000020032248       0x20 arch/arm/cpu/armv7/start.o
+                0x000000002003223c       0x20 arch/arm/cpu/armv7/start.o
  .rel.text.memsize_format
-                0x0000000020032268       0x20 arch/arm/cpu/armv7/start.o
+                0x000000002003225c       0x20 arch/arm/cpu/armv7/start.o
  .rel.text.index_partitions
-                0x0000000020032288       0x28 arch/arm/cpu/armv7/start.o
+                0x000000002003227c       0x28 arch/arm/cpu/armv7/start.o
  .rel.text.current_save
-                0x00000000200322b0       0x40 arch/arm/cpu/armv7/start.o
+                0x00000000200322a4       0x40 arch/arm/cpu/armv7/start.o
  .rel.text.part_sort_add
-                0x00000000200322f0       0x18 arch/arm/cpu/armv7/start.o
+                0x00000000200322e4       0x18 arch/arm/cpu/armv7/start.o
  .rel.text.device_del
-                0x0000000020032308       0x18 arch/arm/cpu/armv7/start.o
+                0x00000000200322fc       0x18 arch/arm/cpu/armv7/start.o
  .rel.text.generate_mtdparts_save.constprop.7
-                0x0000000020032320       0x28 arch/arm/cpu/armv7/start.o
+                0x0000000020032314       0x28 arch/arm/cpu/armv7/start.o
  .rel.text.device_delall.constprop.9
-                0x0000000020032348        0x8 arch/arm/cpu/armv7/start.o
+                0x000000002003233c        0x8 arch/arm/cpu/armv7/start.o
  .rel.text.mtd_devices_init
-                0x0000000020032350       0x10 arch/arm/cpu/armv7/start.o
+                0x0000000020032344       0x10 arch/arm/cpu/armv7/start.o
  .rel.text.get_mtd_info.constprop.10
-                0x0000000020032360       0x28 arch/arm/cpu/armv7/start.o
+                0x0000000020032354       0x28 arch/arm/cpu/armv7/start.o
  .rel.text.part_validate
-                0x0000000020032388       0x48 arch/arm/cpu/armv7/start.o
+                0x000000002003237c       0x48 arch/arm/cpu/armv7/start.o
  .rel.text.device_find
-                0x00000000200323d0        0x8 arch/arm/cpu/armv7/start.o
+                0x00000000200323c4        0x8 arch/arm/cpu/armv7/start.o
  .rel.text.device_parse
-                0x00000000200323d8       0x80 arch/arm/cpu/armv7/start.o
+                0x00000000200323cc       0x80 arch/arm/cpu/armv7/start.o
  .rel.text.mtd_id_parse
-                0x0000000020032458       0x30 arch/arm/cpu/armv7/start.o
+                0x000000002003244c       0x30 arch/arm/cpu/armv7/start.o
  .rel.text.find_dev_and_part
-                0x0000000020032488       0x40 arch/arm/cpu/armv7/start.o
+                0x000000002003247c       0x40 arch/arm/cpu/armv7/start.o
  .rel.text.mtdparts_init
-                0x00000000200324c8       0xd8 arch/arm/cpu/armv7/start.o
+                0x00000000200324bc       0xd8 arch/arm/cpu/armv7/start.o
  .rel.text.do_chpart
-                0x00000000200325a0       0x38 arch/arm/cpu/armv7/start.o
+                0x0000000020032594       0x38 arch/arm/cpu/armv7/start.o
  .rel.text.do_mtdparts
-                0x00000000200325d8      0x108 arch/arm/cpu/armv7/start.o
+                0x00000000200325cc      0x108 arch/arm/cpu/armv7/start.o
  .rel.text.set_dev
-                0x00000000200326e0       0x28 arch/arm/cpu/armv7/start.o
+                0x00000000200326d4       0x28 arch/arm/cpu/armv7/start.o
  .rel.text.nand_print_and_set_info
-                0x0000000020032708       0x50 arch/arm/cpu/armv7/start.o
+                0x00000000200326fc       0x50 arch/arm/cpu/armv7/start.o
  .rel.text.arg_off
-                0x0000000020032758       0x18 arch/arm/cpu/armv7/start.o
+                0x000000002003274c       0x18 arch/arm/cpu/armv7/start.o
  .rel.text.arg_off_size
-                0x0000000020032770       0x30 arch/arm/cpu/armv7/start.o
+                0x0000000020032764       0x30 arch/arm/cpu/armv7/start.o
  .rel.text.do_nand
-                0x00000000200327a0      0x198 arch/arm/cpu/armv7/start.o
+                0x0000000020032794      0x198 arch/arm/cpu/armv7/start.o
  .rel.text.nand_load_image
-                0x0000000020032938       0x40 arch/arm/cpu/armv7/start.o
+                0x000000002003292c       0x40 arch/arm/cpu/armv7/start.o
  .rel.text.do_nandboot
-                0x0000000020032978       0x48 arch/arm/cpu/armv7/start.o
+                0x000000002003296c       0x48 arch/arm/cpu/armv7/start.o
  .rel.text.netboot_common
-                0x00000000200329c0       0x98 arch/arm/cpu/armv7/start.o
+                0x00000000200329b4       0x98 arch/arm/cpu/armv7/start.o
  .rel.text.do_test
-                0x0000000020032a58       0x70 arch/arm/cpu/armv7/start.o
+                0x0000000020032a4c       0x70 arch/arm/cpu/armv7/start.o
  .rel.text.do_imgextract
-                0x0000000020032ac8       0x90 arch/arm/cpu/armv7/start.o
+                0x0000000020032abc       0x90 arch/arm/cpu/armv7/start.o
  .rel.text.menu_get_choice
-                0x0000000020032b58       0x10 arch/arm/cpu/armv7/start.o
+                0x0000000020032b4c       0x10 arch/arm/cpu/armv7/start.o
  .rel.text.do_env_delete
-                0x0000000020032b68       0x10 arch/arm/cpu/armv7/start.o
+                0x0000000020032b5c       0x10 arch/arm/cpu/armv7/start.o
  .rel.text.do_env_save
-                0x0000000020032b78       0x10 arch/arm/cpu/armv7/start.o
+                0x0000000020032b6c       0x10 arch/arm/cpu/armv7/start.o
  .rel.text.do_env
-                0x0000000020032b88        0x8 arch/arm/cpu/armv7/start.o
+                0x0000000020032b7c        0x8 arch/arm/cpu/armv7/start.o
  .rel.text.env_print
-                0x0000000020032b90       0x18 arch/arm/cpu/armv7/start.o
+                0x0000000020032b84       0x18 arch/arm/cpu/armv7/start.o
  .rel.text.do_env_print
-                0x0000000020032ba8       0x10 arch/arm/cpu/armv7/start.o
+                0x0000000020032b9c       0x10 arch/arm/cpu/armv7/start.o
  .rel.text.do_env_import
-                0x0000000020032bb8       0x58 arch/arm/cpu/armv7/start.o
+                0x0000000020032bac       0x58 arch/arm/cpu/armv7/start.o
  .rel.text.do_env_default
-                0x0000000020032c10        0x8 arch/arm/cpu/armv7/start.o
+                0x0000000020032c04        0x8 arch/arm/cpu/armv7/start.o
  .rel.text._do_env_set.isra.0
-                0x0000000020032c18       0x30 arch/arm/cpu/armv7/start.o
+                0x0000000020032c0c       0x30 arch/arm/cpu/armv7/start.o
  .rel.text.get_env_id
-                0x0000000020032c48        0x8 arch/arm/cpu/armv7/start.o
+                0x0000000020032c3c        0x8 arch/arm/cpu/armv7/start.o
  .rel.text.setenv
-                0x0000000020032c50        0x8 arch/arm/cpu/armv7/start.o
+                0x0000000020032c44        0x8 arch/arm/cpu/armv7/start.o
  .rel.text.setenv_hex
-                0x0000000020032c58        0x8 arch/arm/cpu/armv7/start.o
+                0x0000000020032c4c        0x8 arch/arm/cpu/armv7/start.o
  .rel.text.do_env_export
-                0x0000000020032c60       0x40 arch/arm/cpu/armv7/start.o
+                0x0000000020032c54       0x40 arch/arm/cpu/armv7/start.o
  .rel.text.getenv_f
-                0x0000000020032ca0        0x8 arch/arm/cpu/armv7/start.o
+                0x0000000020032c94        0x8 arch/arm/cpu/armv7/start.o
  .rel.text.getenv
-                0x0000000020032ca8        0x8 arch/arm/cpu/armv7/start.o
+                0x0000000020032c9c        0x8 arch/arm/cpu/armv7/start.o
  .rel.text.do_env_edit
-                0x0000000020032cb0       0x10 arch/arm/cpu/armv7/start.o
+                0x0000000020032ca4       0x10 arch/arm/cpu/armv7/start.o
  .rel.text.env_get_addr
-                0x0000000020032cc0        0x8 arch/arm/cpu/armv7/start.o
+                0x0000000020032cb4        0x8 arch/arm/cpu/armv7/start.o
  .rel.text.env_get_char
-                0x0000000020032cc8        0x8 arch/arm/cpu/armv7/start.o
+                0x0000000020032cbc        0x8 arch/arm/cpu/armv7/start.o
  .rel.text.set_default_env
-                0x0000000020032cd0       0x40 arch/arm/cpu/armv7/start.o
+                0x0000000020032cc4       0x40 arch/arm/cpu/armv7/start.o
  .rel.text.set_default_vars
-                0x0000000020032d10       0x10 arch/arm/cpu/armv7/start.o
+                0x0000000020032d04       0x10 arch/arm/cpu/armv7/start.o
  .rel.text.env_import
-                0x0000000020032d20       0x38 arch/arm/cpu/armv7/start.o
+                0x0000000020032d14       0x38 arch/arm/cpu/armv7/start.o
  .rel.text.env_relocate
-                0x0000000020032d58        0x8 arch/arm/cpu/armv7/start.o
+                0x0000000020032d4c        0x8 arch/arm/cpu/armv7/start.o
  .rel.text.env_complete
-                0x0000000020032d60       0x18 arch/arm/cpu/armv7/start.o
+                0x0000000020032d54       0x18 arch/arm/cpu/armv7/start.o
  .rel.text.console_setfile
-                0x0000000020032d78       0x10 arch/arm/cpu/armv7/start.o
+                0x0000000020032d6c       0x10 arch/arm/cpu/armv7/start.o
  .rel.text.fgetc
-                0x0000000020032d88        0x8 arch/arm/cpu/armv7/start.o
+                0x0000000020032d7c        0x8 arch/arm/cpu/armv7/start.o
  .rel.text.ftstc
-                0x0000000020032d90        0x8 arch/arm/cpu/armv7/start.o
+                0x0000000020032d84        0x8 arch/arm/cpu/armv7/start.o
  .rel.text.fputc
-                0x0000000020032d98        0x0 arch/arm/cpu/armv7/start.o
+                0x0000000020032d8c        0x0 arch/arm/cpu/armv7/start.o
  .rel.text.fputs
-                0x0000000020032d98        0x0 arch/arm/cpu/armv7/start.o
+                0x0000000020032d8c        0x0 arch/arm/cpu/armv7/start.o
  .rel.text.putc
-                0x0000000020032d98        0x8 arch/arm/cpu/armv7/start.o
+                0x0000000020032d8c        0x8 arch/arm/cpu/armv7/start.o
  .rel.text.puts
-                0x0000000020032da0        0x8 arch/arm/cpu/armv7/start.o
+                0x0000000020032d94        0x8 arch/arm/cpu/armv7/start.o
  .rel.text.ctrlc
-                0x0000000020032da8       0x10 arch/arm/cpu/armv7/start.o
+                0x0000000020032d9c       0x10 arch/arm/cpu/armv7/start.o
  .rel.text.disable_ctrlc
-                0x0000000020032db8        0x8 arch/arm/cpu/armv7/start.o
+                0x0000000020032dac        0x8 arch/arm/cpu/armv7/start.o
  .rel.text.had_ctrlc
-                0x0000000020032dc0        0x8 arch/arm/cpu/armv7/start.o
+                0x0000000020032db4        0x8 arch/arm/cpu/armv7/start.o
  .rel.text.clear_ctrlc
-                0x0000000020032dc8        0x8 arch/arm/cpu/armv7/start.o
+                0x0000000020032dbc        0x8 arch/arm/cpu/armv7/start.o
  .rel.text.on_console
-                0x0000000020032dd0       0x20 arch/arm/cpu/armv7/start.o
+                0x0000000020032dc4       0x20 arch/arm/cpu/armv7/start.o
  .rel.text.stdio_print_current_devices
-                0x0000000020032df0       0x40 arch/arm/cpu/armv7/start.o
+                0x0000000020032de4       0x40 arch/arm/cpu/armv7/start.o
  .rel.text.console_init_r
-                0x0000000020032e30       0x10 arch/arm/cpu/armv7/start.o
+                0x0000000020032e24       0x10 arch/arm/cpu/armv7/start.o
  .rel.text.sbrk
-                0x0000000020032e40       0x18 arch/arm/cpu/armv7/start.o
+                0x0000000020032e34       0x18 arch/arm/cpu/armv7/start.o
  .rel.text.mem_malloc_init
-                0x0000000020032e58       0x18 arch/arm/cpu/armv7/start.o
+                0x0000000020032e4c       0x18 arch/arm/cpu/armv7/start.o
  .rel.text.malloc_trim
-                0x0000000020032e70       0x18 arch/arm/cpu/armv7/start.o
+                0x0000000020032e64       0x18 arch/arm/cpu/armv7/start.o
  .rel.text.free
-                0x0000000020032e88       0x18 arch/arm/cpu/armv7/start.o
+                0x0000000020032e7c       0x18 arch/arm/cpu/armv7/start.o
  .rel.text.malloc
-                0x0000000020032ea0       0x40 arch/arm/cpu/armv7/start.o
+                0x0000000020032e94       0x40 arch/arm/cpu/armv7/start.o
  .rel.text.calloc
-                0x0000000020032ee0        0x8 arch/arm/cpu/armv7/start.o
+                0x0000000020032ed4        0x8 arch/arm/cpu/armv7/start.o
  .rel.text.realloc
-                0x0000000020032ee8        0x8 arch/arm/cpu/armv7/start.o
+                0x0000000020032edc        0x8 arch/arm/cpu/armv7/start.o
  .rel.text.mallopt
-                0x0000000020032ef0        0x0 arch/arm/cpu/armv7/start.o
+                0x0000000020032ee4        0x0 arch/arm/cpu/armv7/start.o
  .rel.text.on_loadaddr
-                0x0000000020032ef0        0x8 arch/arm/cpu/armv7/start.o
+                0x0000000020032ee4        0x8 arch/arm/cpu/armv7/start.o
  .rel.text.getenv_bootm_low
-                0x0000000020032ef8        0x8 arch/arm/cpu/armv7/start.o
+                0x0000000020032eec        0x8 arch/arm/cpu/armv7/start.o
  .rel.text.getenv_bootm_size
-                0x0000000020032f00       0x10 arch/arm/cpu/armv7/start.o
+                0x0000000020032ef4       0x10 arch/arm/cpu/armv7/start.o
  .rel.text.getenv_bootm_mapsize
-                0x0000000020032f10        0x0 arch/arm/cpu/armv7/start.o
+                0x0000000020032f04        0x0 arch/arm/cpu/armv7/start.o
  .rel.text.genimg_print_size
-                0x0000000020032f10       0x10 arch/arm/cpu/armv7/start.o
+                0x0000000020032f04       0x10 arch/arm/cpu/armv7/start.o
  .rel.text.genimg_get_os_name
-                0x0000000020032f20       0x10 arch/arm/cpu/armv7/start.o
+                0x0000000020032f14       0x10 arch/arm/cpu/armv7/start.o
  .rel.text.genimg_get_arch_name
-                0x0000000020032f30       0x10 arch/arm/cpu/armv7/start.o
+                0x0000000020032f24       0x10 arch/arm/cpu/armv7/start.o
  .rel.text.genimg_get_type_name
-                0x0000000020032f40       0x10 arch/arm/cpu/armv7/start.o
+                0x0000000020032f34       0x10 arch/arm/cpu/armv7/start.o
  .rel.text.genimg_get_comp_name
-                0x0000000020032f50       0x10 arch/arm/cpu/armv7/start.o
+                0x0000000020032f44       0x10 arch/arm/cpu/armv7/start.o
  .rel.text.image_print_contents
-                0x0000000020032f60       0x50 arch/arm/cpu/armv7/start.o
+                0x0000000020032f54       0x50 arch/arm/cpu/armv7/start.o
  .rel.text.genimg_get_os_id
-                0x0000000020032fb0        0x0 arch/arm/cpu/armv7/start.o
+                0x0000000020032fa4        0x0 arch/arm/cpu/armv7/start.o
  .rel.text.genimg_get_arch_id
-                0x0000000020032fb0        0x0 arch/arm/cpu/armv7/start.o
+                0x0000000020032fa4        0x0 arch/arm/cpu/armv7/start.o
  .rel.text.genimg_get_type_id
-                0x0000000020032fb0        0x0 arch/arm/cpu/armv7/start.o
+                0x0000000020032fa4        0x0 arch/arm/cpu/armv7/start.o
  .rel.text.genimg_get_comp_id
-                0x0000000020032fb0        0x0 arch/arm/cpu/armv7/start.o
+                0x0000000020032fa4        0x0 arch/arm/cpu/armv7/start.o
  .rel.text.boot_get_ramdisk
-                0x0000000020032fb0       0x50 arch/arm/cpu/armv7/start.o
+                0x0000000020032fa4       0x50 arch/arm/cpu/armv7/start.o
  .rel.text.boot_ramdisk_high
-                0x0000000020033000       0x20 arch/arm/cpu/armv7/start.o
+                0x0000000020032ff4       0x20 arch/arm/cpu/armv7/start.o
  .rel.text.stdio_get_list
-                0x0000000020033020        0x8 arch/arm/cpu/armv7/start.o
+                0x0000000020033014        0x8 arch/arm/cpu/armv7/start.o
  .rel.text.stdio_get_by_name
-                0x0000000020033028        0x8 arch/arm/cpu/armv7/start.o
+                0x000000002003301c        0x8 arch/arm/cpu/armv7/start.o
  .rel.text.stdio_register
-                0x0000000020033030        0x8 arch/arm/cpu/armv7/start.o
+                0x0000000020033024        0x8 arch/arm/cpu/armv7/start.o
  .rel.text.stdio_init
-                0x0000000020033038       0x30 arch/arm/cpu/armv7/start.o
+                0x000000002003302c       0x30 arch/arm/cpu/armv7/start.o
  .rel.rodata.CSWTCH.28
-                0x0000000020033068       0x40 arch/arm/cpu/armv7/start.o
+                0x000000002003305c       0x40 arch/arm/cpu/armv7/start.o
  .rel.rodata.boot_os
-                0x00000000200330a8       0x38 arch/arm/cpu/armv7/start.o
+                0x000000002003309c       0x38 arch/arm/cpu/armv7/start.o
  .rel.rodata.location.7315
-                0x00000000200330e0        0x8 arch/arm/cpu/armv7/start.o
+                0x00000000200330d4        0x8 arch/arm/cpu/armv7/start.o
  .rel.rodata.op_table
-                0x00000000200330e8       0x68 arch/arm/cpu/armv7/start.o
+                0x00000000200330dc       0x68 arch/arm/cpu/armv7/start.o
  .rel.rodata.op_adv
-                0x0000000020033150       0x80 arch/arm/cpu/armv7/start.o
+                0x0000000020033144       0x80 arch/arm/cpu/armv7/start.o
  .rel.rodata.uimage_comp
-                0x00000000200331d0       0x60 arch/arm/cpu/armv7/start.o
+                0x00000000200331c4       0x60 arch/arm/cpu/armv7/start.o
  .rel.rodata.uimage_os
-                0x0000000020033230       0x98 arch/arm/cpu/armv7/start.o
+                0x0000000020033224       0x98 arch/arm/cpu/armv7/start.o
  .rel.rodata.uimage_arch
-                0x00000000200332c8      0x178 arch/arm/cpu/armv7/start.o
+                0x00000000200332bc      0x178 arch/arm/cpu/armv7/start.o
  .rel.rodata.uimage_type
-                0x0000000020033440      0x118 arch/arm/cpu/armv7/start.o
+                0x0000000020033434      0x118 arch/arm/cpu/armv7/start.o
  .rel.data.hash_algo
-                0x0000000020033558        0x0 arch/arm/cpu/armv7/start.o
+                0x000000002003354c        0x0 arch/arm/cpu/armv7/start.o
  .rel.data.reserved_list
-                0x0000000020033558       0x58 arch/arm/cpu/armv7/start.o
+                0x000000002003354c       0x58 arch/arm/cpu/armv7/start.o
  .rel.u_boot_list_2_cmd_2_showvar
-                0x00000000200335b0       0x20 arch/arm/cpu/armv7/start.o
+                0x00000000200335a4       0x20 arch/arm/cpu/armv7/start.o
  .rel.u_boot_list_2_cmd_2_go
-                0x00000000200335d0       0x20 arch/arm/cpu/armv7/start.o
+                0x00000000200335c4       0x20 arch/arm/cpu/armv7/start.o
  .rel.u_boot_list_2_cmd_2_reset
-                0x00000000200335f0       0x20 arch/arm/cpu/armv7/start.o
+                0x00000000200335e4       0x20 arch/arm/cpu/armv7/start.o
  .rel.u_boot_list_2_cmd_2_iminfo
-                0x0000000020033610       0x20 arch/arm/cpu/armv7/start.o
+                0x0000000020033604       0x20 arch/arm/cpu/armv7/start.o
  .rel.u_boot_list_2_cmd_2_boot
-                0x0000000020033630       0x20 arch/arm/cpu/armv7/start.o
+                0x0000000020033624       0x20 arch/arm/cpu/armv7/start.o
  .rel.u_boot_list_2_cmd_2_bootd
-                0x0000000020033650       0x20 arch/arm/cpu/armv7/start.o
+                0x0000000020033644       0x20 arch/arm/cpu/armv7/start.o
  .rel.u_boot_list_2_cmd_2_bootm
-                0x0000000020033670       0x20 arch/arm/cpu/armv7/start.o
+                0x0000000020033664       0x20 arch/arm/cpu/armv7/start.o
  .rel.data.cmd_bootm_sub
-                0x0000000020033690       0xc0 arch/arm/cpu/armv7/start.o
+                0x0000000020033684       0xc0 arch/arm/cpu/armv7/start.o
  .rel.u_boot_list_2_cmd_2_question_mark
-                0x0000000020033750       0x20 arch/arm/cpu/armv7/start.o
+                0x0000000020033744       0x20 arch/arm/cpu/armv7/start.o
  .rel.u_boot_list_2_cmd_2_help
-                0x0000000020033770       0x20 arch/arm/cpu/armv7/start.o
+                0x0000000020033764       0x20 arch/arm/cpu/armv7/start.o
  .rel.u_boot_list_2_cmd_2_version
-                0x0000000020033790       0x20 arch/arm/cpu/armv7/start.o
+                0x0000000020033784       0x20 arch/arm/cpu/armv7/start.o
  .rel.u_boot_list_2_env_clbk_2_callbacks
-                0x00000000200337b0       0x10 arch/arm/cpu/armv7/start.o
+                0x00000000200337a4       0x10 arch/arm/cpu/armv7/start.o
  .rel.u_boot_list_2_env_clbk_2_flags
-                0x00000000200337c0       0x10 arch/arm/cpu/armv7/start.o
+                0x00000000200337b4       0x10 arch/arm/cpu/armv7/start.o
  .rel.data.env_name_spec
-                0x00000000200337d0        0x8 arch/arm/cpu/armv7/start.o
+                0x00000000200337c4        0x8 arch/arm/cpu/armv7/start.o
  .rel.u_boot_list_2_cmd_2_source
-                0x00000000200337d8       0x20 arch/arm/cpu/armv7/start.o
+                0x00000000200337cc       0x20 arch/arm/cpu/armv7/start.o
  .rel.u_boot_list_2_cmd_2_bdinfo
-                0x00000000200337f8       0x20 arch/arm/cpu/armv7/start.o
+                0x00000000200337ec       0x20 arch/arm/cpu/armv7/start.o
  .rel.u_boot_list_2_cmd_2_bootmenu
-                0x0000000020033818       0x20 arch/arm/cpu/armv7/start.o
+                0x000000002003380c       0x20 arch/arm/cpu/armv7/start.o
  .rel.u_boot_list_2_cmd_2_icache
-                0x0000000020033838       0x20 arch/arm/cpu/armv7/start.o
+                0x000000002003382c       0x20 arch/arm/cpu/armv7/start.o
  .rel.u_boot_list_2_cmd_2_dcache
-                0x0000000020033858       0x20 arch/arm/cpu/armv7/start.o
+                0x000000002003384c       0x20 arch/arm/cpu/armv7/start.o
  .rel.u_boot_list_2_cmd_2_coninfo
-                0x0000000020033878       0x20 arch/arm/cpu/armv7/start.o
+                0x000000002003386c       0x20 arch/arm/cpu/armv7/start.o
  .rel.u_boot_list_2_cmd_2_echo
-                0x0000000020033898       0x20 arch/arm/cpu/armv7/start.o
+                0x000000002003388c       0x20 arch/arm/cpu/armv7/start.o
  .rel.u_boot_list_2_cmd_2_bootelf
-                0x00000000200338b8       0x20 arch/arm/cpu/armv7/start.o
+                0x00000000200338ac       0x20 arch/arm/cpu/armv7/start.o
  .rel.u_boot_list_2_cmd_2_bootvx
-                0x00000000200338d8       0x20 arch/arm/cpu/armv7/start.o
+                0x00000000200338cc       0x20 arch/arm/cpu/armv7/start.o
  .rel.u_boot_list_2_cmd_2_exit
-                0x00000000200338f8       0x20 arch/arm/cpu/armv7/start.o
+                0x00000000200338ec       0x20 arch/arm/cpu/armv7/start.o
  .rel.u_boot_list_2_cmd_2_fatinfo
-                0x0000000020033918       0x20 arch/arm/cpu/armv7/start.o
+                0x000000002003390c       0x20 arch/arm/cpu/armv7/start.o
  .rel.u_boot_list_2_cmd_2_fatload
-                0x0000000020033938       0x20 arch/arm/cpu/armv7/start.o
+                0x000000002003392c       0x20 arch/arm/cpu/armv7/start.o
  .rel.u_boot_list_2_cmd_2_fatls
-                0x0000000020033958       0x20 arch/arm/cpu/armv7/start.o
+                0x000000002003394c       0x20 arch/arm/cpu/armv7/start.o
  .rel.u_boot_list_2_cmd_2_itest
-                0x0000000020033978       0x20 arch/arm/cpu/armv7/start.o
+                0x000000002003396c       0x20 arch/arm/cpu/armv7/start.o
  .rel.u_boot_list_2_cmd_2_loadb
-                0x0000000020033998       0x20 arch/arm/cpu/armv7/start.o
+                0x000000002003398c       0x20 arch/arm/cpu/armv7/start.o
  .rel.u_boot_list_2_cmd_2_loadx
-                0x00000000200339b8       0x20 arch/arm/cpu/armv7/start.o
+                0x00000000200339ac       0x20 arch/arm/cpu/armv7/start.o
  .rel.u_boot_list_2_cmd_2_loady
-                0x00000000200339d8       0x20 arch/arm/cpu/armv7/start.o
+                0x00000000200339cc       0x20 arch/arm/cpu/armv7/start.o
  .rel.u_boot_list_2_cmd_2_loads
-                0x00000000200339f8       0x20 arch/arm/cpu/armv7/start.o
+                0x00000000200339ec       0x20 arch/arm/cpu/armv7/start.o
  .rel.u_boot_list_2_cmd_2_base
-                0x0000000020033a18       0x20 arch/arm/cpu/armv7/start.o
+                0x0000000020033a0c       0x20 arch/arm/cpu/armv7/start.o
  .rel.u_boot_list_2_cmd_2_cmp
-                0x0000000020033a38       0x20 arch/arm/cpu/armv7/start.o
+                0x0000000020033a2c       0x20 arch/arm/cpu/armv7/start.o
  .rel.u_boot_list_2_cmd_2_nm
-                0x0000000020033a58       0x20 arch/arm/cpu/armv7/start.o
+                0x0000000020033a4c       0x20 arch/arm/cpu/armv7/start.o
  .rel.u_boot_list_2_cmd_2_loop
-                0x0000000020033a78       0x20 arch/arm/cpu/armv7/start.o
+                0x0000000020033a6c       0x20 arch/arm/cpu/armv7/start.o
  .rel.u_boot_list_2_cmd_2_cp
-                0x0000000020033a98       0x20 arch/arm/cpu/armv7/start.o
+                0x0000000020033a8c       0x20 arch/arm/cpu/armv7/start.o
  .rel.u_boot_list_2_cmd_2_mm
-                0x0000000020033ab8       0x20 arch/arm/cpu/armv7/start.o
+                0x0000000020033aac       0x20 arch/arm/cpu/armv7/start.o
  .rel.u_boot_list_2_cmd_2_crc32
-                0x0000000020033ad8       0x20 arch/arm/cpu/armv7/start.o
+                0x0000000020033acc       0x20 arch/arm/cpu/armv7/start.o
  .rel.u_boot_list_2_cmd_2_md
-                0x0000000020033af8       0x20 arch/arm/cpu/armv7/start.o
+                0x0000000020033aec       0x20 arch/arm/cpu/armv7/start.o
  .rel.u_boot_list_2_cmd_2_mw
-                0x0000000020033b18       0x20 arch/arm/cpu/armv7/start.o
+                0x0000000020033b0c       0x20 arch/arm/cpu/armv7/start.o
  .rel.u_boot_list_2_cmd_2_sleep
-                0x0000000020033b38       0x20 arch/arm/cpu/armv7/start.o
+                0x0000000020033b2c       0x20 arch/arm/cpu/armv7/start.o
  .rel.u_boot_list_2_cmd_2_mtdparts
-                0x0000000020033b58       0x20 arch/arm/cpu/armv7/start.o
+                0x0000000020033b4c       0x20 arch/arm/cpu/armv7/start.o
  .rel.u_boot_list_2_cmd_2_chpart
-                0x0000000020033b78       0x20 arch/arm/cpu/armv7/start.o
+                0x0000000020033b6c       0x20 arch/arm/cpu/armv7/start.o
  .rel.u_boot_list_2_cmd_2_nboot
-                0x0000000020033b98       0x20 arch/arm/cpu/armv7/start.o
+                0x0000000020033b8c       0x20 arch/arm/cpu/armv7/start.o
  .rel.u_boot_list_2_cmd_2_nand
-                0x0000000020033bb8       0x20 arch/arm/cpu/armv7/start.o
+                0x0000000020033bac       0x20 arch/arm/cpu/armv7/start.o
  .rel.u_boot_list_2_cmd_2_bootp
-                0x0000000020033bd8       0x20 arch/arm/cpu/armv7/start.o
+                0x0000000020033bcc       0x20 arch/arm/cpu/armv7/start.o
  .rel.u_boot_list_2_cmd_2_tftpboot
-                0x0000000020033bf8       0x20 arch/arm/cpu/armv7/start.o
+                0x0000000020033bec       0x20 arch/arm/cpu/armv7/start.o
  .rel.u_boot_list_2_cmd_2_nfs
-                0x0000000020033c18       0x20 arch/arm/cpu/armv7/start.o
+                0x0000000020033c0c       0x20 arch/arm/cpu/armv7/start.o
  .rel.u_boot_list_2_cmd_2_reginfo
-                0x0000000020033c38       0x20 arch/arm/cpu/armv7/start.o
+                0x0000000020033c2c       0x20 arch/arm/cpu/armv7/start.o
  .rel.u_boot_list_2_cmd_2_test
-                0x0000000020033c58       0x20 arch/arm/cpu/armv7/start.o
+                0x0000000020033c4c       0x20 arch/arm/cpu/armv7/start.o
  .rel.u_boot_list_2_cmd_2_true
-                0x0000000020033c78       0x18 arch/arm/cpu/armv7/start.o
+                0x0000000020033c6c       0x18 arch/arm/cpu/armv7/start.o
  .rel.u_boot_list_2_cmd_2_false
-                0x0000000020033c90       0x18 arch/arm/cpu/armv7/start.o
+                0x0000000020033c84       0x18 arch/arm/cpu/armv7/start.o
  .rel.u_boot_list_2_cmd_2_imxtract
-                0x0000000020033ca8       0x20 arch/arm/cpu/armv7/start.o
+                0x0000000020033c9c       0x20 arch/arm/cpu/armv7/start.o
  .rel.u_boot_list_2_cmd_2_setenv
-                0x0000000020033cc8       0x28 arch/arm/cpu/armv7/start.o
+                0x0000000020033cbc       0x28 arch/arm/cpu/armv7/start.o
  .rel.u_boot_list_2_cmd_2_env
-                0x0000000020033cf0       0x20 arch/arm/cpu/armv7/start.o
+                0x0000000020033ce4       0x20 arch/arm/cpu/armv7/start.o
  .rel.u_boot_list_2_cmd_2_saveenv
-                0x0000000020033d10       0x20 arch/arm/cpu/armv7/start.o
+                0x0000000020033d04       0x20 arch/arm/cpu/armv7/start.o
  .rel.data.cmd_env_sub
-                0x0000000020033d30      0x120 arch/arm/cpu/armv7/start.o
+                0x0000000020033d24      0x120 arch/arm/cpu/armv7/start.o
  .rel.u_boot_list_2_cmd_2_printenv
-                0x0000000020033e50       0x28 arch/arm/cpu/armv7/start.o
+                0x0000000020033e44       0x28 arch/arm/cpu/armv7/start.o
  .rel.u_boot_list_2_cmd_2_editenv
-                0x0000000020033e78       0x28 arch/arm/cpu/armv7/start.o
+                0x0000000020033e6c       0x28 arch/arm/cpu/armv7/start.o
  .rel.u_boot_list_2_cmd_2_run
-                0x0000000020033ea0       0x28 arch/arm/cpu/armv7/start.o
+                0x0000000020033e94       0x28 arch/arm/cpu/armv7/start.o
  .rel.data.env_htab
-                0x0000000020033ec8        0x8 arch/arm/cpu/armv7/start.o
+                0x0000000020033ebc        0x8 arch/arm/cpu/armv7/start.o
  .rel.u_boot_list_2_env_clbk_2_console
-                0x0000000020033ed0       0x10 arch/arm/cpu/armv7/start.o
- .rel.data.av_  0x0000000020033ee0      0x800 arch/arm/cpu/armv7/start.o
+                0x0000000020033ec4       0x10 arch/arm/cpu/armv7/start.o
+ .rel.data.av_  0x0000000020033ed4      0x800 arch/arm/cpu/armv7/start.o
  .rel.u_boot_list_2_env_clbk_2_loadaddr
-                0x00000000200346e0       0x10 arch/arm/cpu/armv7/start.o
+                0x00000000200346d4       0x10 arch/arm/cpu/armv7/start.o
  .rel.data.stdio_names
-                0x00000000200346f0       0x18 arch/arm/cpu/armv7/start.o
+                0x00000000200346e4       0x18 arch/arm/cpu/armv7/start.o
  .rel.text.get_device
-                0x0000000020034708       0x10 arch/arm/cpu/armv7/start.o
+                0x00000000200346fc       0x10 arch/arm/cpu/armv7/start.o
  .rel.text.get_device_and_partition
-                0x0000000020034718       0x58 arch/arm/cpu/armv7/start.o
+                0x000000002003470c       0x58 arch/arm/cpu/armv7/start.o
  .rel.text.input_send_keycodes
-                0x0000000020034770        0x0 arch/arm/cpu/armv7/start.o
+                0x0000000020034764        0x0 arch/arm/cpu/armv7/start.o
  .rel.text.input_init
-                0x0000000020034770        0x0 arch/arm/cpu/armv7/start.o
+                0x0000000020034764        0x0 arch/arm/cpu/armv7/start.o
  .rel.text.input_stdio_register
-                0x0000000020034770        0x0 arch/arm/cpu/armv7/start.o
+                0x0000000020034764        0x0 arch/arm/cpu/armv7/start.o
  .rel.rodata.kbd_to_ansi364
-                0x0000000020034770        0x0 arch/arm/cpu/armv7/start.o
+                0x0000000020034764        0x0 arch/arm/cpu/armv7/start.o
  .rel.text.add_mtd_device
-                0x0000000020034770       0x18 arch/arm/cpu/armv7/start.o
+                0x0000000020034764       0x18 arch/arm/cpu/armv7/start.o
  .rel.text.del_mtd_device
-                0x0000000020034788        0x0 arch/arm/cpu/armv7/start.o
+                0x000000002003477c        0x0 arch/arm/cpu/armv7/start.o
  .rel.text.get_mtd_device
-                0x0000000020034788        0x0 arch/arm/cpu/armv7/start.o
+                0x000000002003477c        0x0 arch/arm/cpu/armv7/start.o
  .rel.text.get_mtd_device_nm
-                0x0000000020034788        0x8 arch/arm/cpu/armv7/start.o
+                0x000000002003477c        0x8 arch/arm/cpu/armv7/start.o
  .rel.text.put_mtd_device
-                0x0000000020034790        0x0 arch/arm/cpu/armv7/start.o
+                0x0000000020034784        0x0 arch/arm/cpu/armv7/start.o
  .rel.text.mtd_erase_callback
-                0x0000000020034790        0x8 arch/arm/cpu/armv7/start.o
+                0x0000000020034784        0x8 arch/arm/cpu/armv7/start.o
  .rel.text.del_mtd_partitions
-                0x0000000020034798        0x0 arch/arm/cpu/armv7/start.o
+                0x000000002003478c        0x0 arch/arm/cpu/armv7/start.o
  .rel.text.add_mtd_partitions
-                0x0000000020034798        0x0 arch/arm/cpu/armv7/start.o
+                0x000000002003478c        0x0 arch/arm/cpu/armv7/start.o
  .rel.text.nand_register
-                0x0000000020034798       0x28 arch/arm/cpu/armv7/start.o
+                0x000000002003478c       0x28 arch/arm/cpu/armv7/start.o
  .rel.text.nand_init
-                0x00000000200347c0       0x20 arch/arm/cpu/armv7/start.o
+                0x00000000200347b4       0x20 arch/arm/cpu/armv7/start.o
  .rel.text.verify_bbt_descr
-                0x00000000200347e0       0x20 arch/arm/cpu/armv7/start.o
+                0x00000000200347d4       0x20 arch/arm/cpu/armv7/start.o
  .rel.text.create_bbt
-                0x0000000020034800       0x20 arch/arm/cpu/armv7/start.o
+                0x00000000200347f4       0x20 arch/arm/cpu/armv7/start.o
  .rel.text.write_bbt
-                0x0000000020034820       0x40 arch/arm/cpu/armv7/start.o
+                0x0000000020034814       0x40 arch/arm/cpu/armv7/start.o
  .rel.text.nand_default_bbt
-                0x0000000020034860       0x30 arch/arm/cpu/armv7/start.o
+                0x0000000020034854       0x30 arch/arm/cpu/armv7/start.o
  .rel.text.nand_erase_opts
-                0x0000000020034890       0x48 arch/arm/cpu/armv7/start.o
+                0x0000000020034884       0x48 arch/arm/cpu/armv7/start.o
  .rel.text.nand_write_skip_bad
-                0x00000000200348d8       0x28 arch/arm/cpu/armv7/start.o
+                0x00000000200348cc       0x28 arch/arm/cpu/armv7/start.o
  .rel.text.nand_read_skip_bad
-                0x0000000020034900       0x28 arch/arm/cpu/armv7/start.o
+                0x00000000200348f4       0x28 arch/arm/cpu/armv7/start.o
  .rel.text.nand_calculate_ecc
-                0x0000000020034928        0x8 arch/arm/cpu/armv7/start.o
+                0x000000002003491c        0x8 arch/arm/cpu/armv7/start.o
  .rel.text.nand_wait
-                0x0000000020034930        0x8 arch/arm/cpu/armv7/start.o
+                0x0000000020034924        0x8 arch/arm/cpu/armv7/start.o
  .rel.text.nand_fill_oob
-                0x0000000020034938       0x20 arch/arm/cpu/armv7/start.o
+                0x000000002003492c       0x20 arch/arm/cpu/armv7/start.o
  .rel.text.nand_do_write_ops
-                0x0000000020034958        0x8 arch/arm/cpu/armv7/start.o
+                0x000000002003494c        0x8 arch/arm/cpu/armv7/start.o
  .rel.text.nand_select_chip
-                0x0000000020034960       0x20 arch/arm/cpu/armv7/start.o
+                0x0000000020034954       0x20 arch/arm/cpu/armv7/start.o
  .rel.text.nand_transfer_oob
-                0x0000000020034980       0x20 arch/arm/cpu/armv7/start.o
+                0x0000000020034974       0x20 arch/arm/cpu/armv7/start.o
  .rel.text.nand_scan_ident
-                0x00000000200349a0       0xf0 arch/arm/cpu/armv7/start.o
+                0x0000000020034994       0xf0 arch/arm/cpu/armv7/start.o
  .rel.text.nand_scan_tail
-                0x0000000020034a90      0x158 arch/arm/cpu/armv7/start.o
+                0x0000000020034a84      0x158 arch/arm/cpu/armv7/start.o
  .rel.text.s5pv210_nand_correct_data
-                0x0000000020034be8        0x8 arch/arm/cpu/armv7/start.o
+                0x0000000020034bdc        0x8 arch/arm/cpu/armv7/start.o
  .rel.text.s5pv210_nand_select_chip
-                0x0000000020034bf0       0x20 arch/arm/cpu/armv7/start.o
+                0x0000000020034be4       0x20 arch/arm/cpu/armv7/start.o
  .rel.text.board_nand_init
-                0x0000000020034c10       0x40 arch/arm/cpu/armv7/start.o
+                0x0000000020034c04       0x40 arch/arm/cpu/armv7/start.o
  .rel.rodata.nand_manuf_ids
-                0x0000000020034c50        0x0 arch/arm/cpu/armv7/start.o
+                0x0000000020034c44        0x0 arch/arm/cpu/armv7/start.o
  .rel.rodata.nand_flash_ids
-                0x0000000020034c50      0x240 arch/arm/cpu/armv7/start.o
+                0x0000000020034c44      0x240 arch/arm/cpu/armv7/start.o
  .rel.data.bbt_mirror_descr
-                0x0000000020034e90        0x8 arch/arm/cpu/armv7/start.o
+                0x0000000020034e84        0x8 arch/arm/cpu/armv7/start.o
  .rel.data.bbt_main_no_oob_descr
-                0x0000000020034e98        0x8 arch/arm/cpu/armv7/start.o
+                0x0000000020034e8c        0x8 arch/arm/cpu/armv7/start.o
  .rel.data.bbt_mirror_no_oob_descr
-                0x0000000020034ea0        0x8 arch/arm/cpu/armv7/start.o
+                0x0000000020034e94        0x8 arch/arm/cpu/armv7/start.o
  .rel.data.bbt_main_descr
-                0x0000000020034ea8        0x8 arch/arm/cpu/armv7/start.o
+                0x0000000020034e9c        0x8 arch/arm/cpu/armv7/start.o
  .rel.data.agand_flashbased
-                0x0000000020034eb0        0x8 arch/arm/cpu/armv7/start.o
+                0x0000000020034ea4        0x8 arch/arm/cpu/armv7/start.o
  .rel.text.s3c_write_cmd
-                0x0000000020034eb8        0x0 arch/arm/cpu/armv7/start.o
+                0x0000000020034eac        0x0 arch/arm/cpu/armv7/start.o
  .rel.text.s3c_onenand_reset
-                0x0000000020034eb8        0x0 arch/arm/cpu/armv7/start.o
+                0x0000000020034eac        0x0 arch/arm/cpu/armv7/start.o
  .rel.text.s3c_get_bufferram
-                0x0000000020034eb8        0x0 arch/arm/cpu/armv7/start.o
+                0x0000000020034eac        0x0 arch/arm/cpu/armv7/start.o
  .rel.text.s3c_onenand_bbt_wait
-                0x0000000020034eb8        0x0 arch/arm/cpu/armv7/start.o
+                0x0000000020034eac        0x0 arch/arm/cpu/armv7/start.o
  .rel.text.s3c_onenand_wait
-                0x0000000020034eb8        0x0 arch/arm/cpu/armv7/start.o
+                0x0000000020034eac        0x0 arch/arm/cpu/armv7/start.o
  .rel.text.s3c_onenand_readw
-                0x0000000020034eb8        0x0 arch/arm/cpu/armv7/start.o
+                0x0000000020034eac        0x0 arch/arm/cpu/armv7/start.o
  .rel.text.s3c_onenand_writew
-                0x0000000020034eb8        0x0 arch/arm/cpu/armv7/start.o
+                0x0000000020034eac        0x0 arch/arm/cpu/armv7/start.o
  .rel.text.s3c_onenand_check_lock_status.isra.0
-                0x0000000020034eb8        0x0 arch/arm/cpu/armv7/start.o
+                0x0000000020034eac        0x0 arch/arm/cpu/armv7/start.o
  .rel.text.s3c_onenand_unlock_all
-                0x0000000020034eb8        0x0 arch/arm/cpu/armv7/start.o
+                0x0000000020034eac        0x0 arch/arm/cpu/armv7/start.o
  .rel.text.s3c_onenand_command
-                0x0000000020034eb8        0x0 arch/arm/cpu/armv7/start.o
+                0x0000000020034eac        0x0 arch/arm/cpu/armv7/start.o
  .rel.text.s3c_onenand_init
-                0x0000000020034eb8        0x0 arch/arm/cpu/armv7/start.o
+                0x0000000020034eac        0x0 arch/arm/cpu/armv7/start.o
  .rel.text.smc911x_reset
-                0x0000000020034eb8       0x10 arch/arm/cpu/armv7/start.o
+                0x0000000020034eac       0x10 arch/arm/cpu/armv7/start.o
  .rel.text.smc911x_init
-                0x0000000020034ec8       0x20 arch/arm/cpu/armv7/start.o
+                0x0000000020034ebc       0x20 arch/arm/cpu/armv7/start.o
  .rel.text.smc911x_rx
-                0x0000000020034ee8       0x10 arch/arm/cpu/armv7/start.o
+                0x0000000020034edc       0x10 arch/arm/cpu/armv7/start.o
  .rel.text.smc911x_send
-                0x0000000020034ef8       0x38 arch/arm/cpu/armv7/start.o
+                0x0000000020034eec       0x38 arch/arm/cpu/armv7/start.o
  .rel.text.smc911x_initialize
-                0x0000000020034f30       0x48 arch/arm/cpu/armv7/start.o
+                0x0000000020034f24       0x48 arch/arm/cpu/armv7/start.o
  .rel.rodata.chip_ids
-                0x0000000020034f78       0x60 arch/arm/cpu/armv7/start.o
+                0x0000000020034f6c       0x60 arch/arm/cpu/armv7/start.o
  .rel.text.get_current
-                0x0000000020034fd8       0x10 arch/arm/cpu/armv7/start.o
+                0x0000000020034fcc       0x10 arch/arm/cpu/armv7/start.o
  .rel.text.serial_register
-                0x0000000020034fe8        0x8 arch/arm/cpu/armv7/start.o
+                0x0000000020034fdc        0x8 arch/arm/cpu/armv7/start.o
  .rel.text.serial_stdio_init
-                0x0000000020034ff0        0x8 arch/arm/cpu/armv7/start.o
+                0x0000000020034fe4        0x8 arch/arm/cpu/armv7/start.o
  .rel.text.serial_assign
-                0x0000000020034ff8       0x10 arch/arm/cpu/armv7/start.o
+                0x0000000020034fec       0x10 arch/arm/cpu/armv7/start.o
  .rel.text.serial_reinit_all
-                0x0000000020035008        0x0 arch/arm/cpu/armv7/start.o
+                0x0000000020034ffc        0x0 arch/arm/cpu/armv7/start.o
  .rel.text.on_baudrate
-                0x0000000020035008       0x18 arch/arm/cpu/armv7/start.o
+                0x0000000020034ffc       0x18 arch/arm/cpu/armv7/start.o
  .rel.text.serial_getc_dev
-                0x0000000020035020        0x8 arch/arm/cpu/armv7/start.o
+                0x0000000020035014        0x8 arch/arm/cpu/armv7/start.o
  .rel.text.s5p_serial2_tstc
-                0x0000000020035028        0x8 arch/arm/cpu/armv7/start.o
+                0x000000002003501c        0x8 arch/arm/cpu/armv7/start.o
  .rel.text.serial_setbrg_dev
-                0x0000000020035030       0x10 arch/arm/cpu/armv7/start.o
+                0x0000000020035024       0x10 arch/arm/cpu/armv7/start.o
  .rel.text.serial_putc_dev
-                0x0000000020035040        0x8 arch/arm/cpu/armv7/start.o
+                0x0000000020035034        0x8 arch/arm/cpu/armv7/start.o
  .rel.text.s5p_serial0_tstc
-                0x0000000020035048        0x8 arch/arm/cpu/armv7/start.o
+                0x000000002003503c        0x8 arch/arm/cpu/armv7/start.o
  .rel.text.s5p_serial3_tstc
-                0x0000000020035050        0x8 arch/arm/cpu/armv7/start.o
+                0x0000000020035044        0x8 arch/arm/cpu/armv7/start.o
  .rel.text.s5p_serial1_tstc
-                0x0000000020035058        0x8 arch/arm/cpu/armv7/start.o
+                0x000000002003504c        0x8 arch/arm/cpu/armv7/start.o
  .rel.text.default_serial_console
-                0x0000000020035060       0x10 arch/arm/cpu/armv7/start.o
+                0x0000000020035054       0x10 arch/arm/cpu/armv7/start.o
  .rel.text.s5p_serial_initialize
-                0x0000000020035070       0x20 arch/arm/cpu/armv7/start.o
+                0x0000000020035064       0x20 arch/arm/cpu/armv7/start.o
  .rel.u_boot_list_2_env_clbk_2_baudrate
-                0x0000000020035090       0x10 arch/arm/cpu/armv7/start.o
+                0x0000000020035084       0x10 arch/arm/cpu/armv7/start.o
  .rel.data.s5p_serial1_device
-                0x00000000200350a0       0x30 arch/arm/cpu/armv7/start.o
+                0x0000000020035094       0x30 arch/arm/cpu/armv7/start.o
  .rel.data.s5p_serial0_device
-                0x00000000200350d0       0x30 arch/arm/cpu/armv7/start.o
+                0x00000000200350c4       0x30 arch/arm/cpu/armv7/start.o
  .rel.data.s5p_serial2_device
-                0x0000000020035100       0x30 arch/arm/cpu/armv7/start.o
+                0x00000000200350f4       0x30 arch/arm/cpu/armv7/start.o
  .rel.data.s5p_serial3_device
-                0x0000000020035130       0x30 arch/arm/cpu/armv7/start.o
+                0x0000000020035124       0x30 arch/arm/cpu/armv7/start.o
  .rel.text.spi_set_wordlen
-                0x0000000020035160        0x0 arch/arm/cpu/armv7/start.o
+                0x0000000020035154        0x0 arch/arm/cpu/armv7/start.o
  .rel.text.fs_probe_unsupported
-                0x0000000020035160        0x8 arch/arm/cpu/armv7/start.o
+                0x0000000020035154        0x8 arch/arm/cpu/armv7/start.o
  .rel.text.fs_get_info
-                0x0000000020035168        0x8 arch/arm/cpu/armv7/start.o
+                0x000000002003515c        0x8 arch/arm/cpu/armv7/start.o
  .rel.text.fs_close
-                0x0000000020035170        0x8 arch/arm/cpu/armv7/start.o
+                0x0000000020035164        0x8 arch/arm/cpu/armv7/start.o
  .rel.text.fs_set_blk_dev
-                0x0000000020035178       0x20 arch/arm/cpu/armv7/start.o
+                0x000000002003516c       0x20 arch/arm/cpu/armv7/start.o
  .rel.text.fs_ls
-                0x0000000020035198        0x8 arch/arm/cpu/armv7/start.o
+                0x000000002003518c        0x8 arch/arm/cpu/armv7/start.o
  .rel.text.fs_exists
-                0x00000000200351a0        0x8 arch/arm/cpu/armv7/start.o
+                0x0000000020035194        0x8 arch/arm/cpu/armv7/start.o
  .rel.text.fs_read
-                0x00000000200351a8       0x10 arch/arm/cpu/armv7/start.o
+                0x000000002003519c       0x10 arch/arm/cpu/armv7/start.o
  .rel.text.fs_write
-                0x00000000200351b8        0x0 arch/arm/cpu/armv7/start.o
+                0x00000000200351ac        0x0 arch/arm/cpu/armv7/start.o
  .rel.text.do_load
-                0x00000000200351b8       0x48 arch/arm/cpu/armv7/start.o
+                0x00000000200351ac       0x48 arch/arm/cpu/armv7/start.o
  .rel.text.do_ls
-                0x0000000020035200        0x8 arch/arm/cpu/armv7/start.o
+                0x00000000200351f4        0x8 arch/arm/cpu/armv7/start.o
  .rel.text.do_save
-                0x0000000020035208        0x0 arch/arm/cpu/armv7/start.o
+                0x00000000200351fc        0x0 arch/arm/cpu/armv7/start.o
  .rel.text.downcase
-                0x0000000020035208        0x8 arch/arm/cpu/armv7/start.o
+                0x00000000200351fc        0x8 arch/arm/cpu/armv7/start.o
  .rel.text.disk_read
-                0x0000000020035210       0x10 arch/arm/cpu/armv7/start.o
+                0x0000000020035204       0x10 arch/arm/cpu/armv7/start.o
  .rel.text.get_cluster
-                0x0000000020035220        0x8 arch/arm/cpu/armv7/start.o
+                0x0000000020035214        0x8 arch/arm/cpu/armv7/start.o
  .rel.text.read_bootsectandvi
-                0x0000000020035228       0x20 arch/arm/cpu/armv7/start.o
+                0x000000002003521c       0x20 arch/arm/cpu/armv7/start.o
  .rel.text.get_vfatname
-                0x0000000020035248       0x10 arch/arm/cpu/armv7/start.o
+                0x000000002003523c       0x10 arch/arm/cpu/armv7/start.o
  .rel.text.fat_set_blk_dev
-                0x0000000020035258       0x28 arch/arm/cpu/armv7/start.o
+                0x000000002003524c       0x28 arch/arm/cpu/armv7/start.o
  .rel.text.fat_register_device
-                0x0000000020035280        0x0 arch/arm/cpu/armv7/start.o
+                0x0000000020035274        0x0 arch/arm/cpu/armv7/start.o
  .rel.text.do_fat_read_at
-                0x0000000020035280       0x58 arch/arm/cpu/armv7/start.o
+                0x0000000020035274       0x58 arch/arm/cpu/armv7/start.o
  .rel.text.file_fat_detectfs
-                0x00000000200352d8       0x20 arch/arm/cpu/armv7/start.o
+                0x00000000200352cc       0x20 arch/arm/cpu/armv7/start.o
  .rel.text.file_fat_read_at
-                0x00000000200352f8        0x8 arch/arm/cpu/armv7/start.o
+                0x00000000200352ec        0x8 arch/arm/cpu/armv7/start.o
  .rel.text.fat_read_file
-                0x0000000020035300        0x8 arch/arm/cpu/armv7/start.o
+                0x00000000200352f4        0x8 arch/arm/cpu/armv7/start.o
  .rel.text.file_getfsname
-                0x0000000020035308        0x0 arch/arm/cpu/armv7/start.o
+                0x00000000200352fc        0x0 arch/arm/cpu/armv7/start.o
  .rel.text.file_cd
-                0x0000000020035308        0x0 arch/arm/cpu/armv7/start.o
+                0x00000000200352fc        0x0 arch/arm/cpu/armv7/start.o
  .rel.text.file_detectfs
-                0x0000000020035308        0x0 arch/arm/cpu/armv7/start.o
+                0x00000000200352fc        0x0 arch/arm/cpu/armv7/start.o
  .rel.text.file_ls
-                0x0000000020035308        0x0 arch/arm/cpu/armv7/start.o
+                0x00000000200352fc        0x0 arch/arm/cpu/armv7/start.o
  .rel.text.file_read
-                0x0000000020035308        0x0 arch/arm/cpu/armv7/start.o
+                0x00000000200352fc        0x0 arch/arm/cpu/armv7/start.o
  .rel.rodata.filesystems
-                0x0000000020035308        0x0 arch/arm/cpu/armv7/start.o
+                0x00000000200352fc        0x0 arch/arm/cpu/armv7/start.o
  .rel.data.fstypes
-                0x0000000020035308       0x60 arch/arm/cpu/armv7/start.o
+                0x00000000200352fc       0x60 arch/arm/cpu/armv7/start.o
  .rel.text.inflate_fast
-                0x0000000020035368       0x18 arch/arm/cpu/armv7/start.o
+                0x000000002003535c       0x18 arch/arm/cpu/armv7/start.o
  .rel.text.inflate_table
-                0x0000000020035380       0x20 arch/arm/cpu/armv7/start.o
+                0x0000000020035374       0x20 arch/arm/cpu/armv7/start.o
  .rel.text.inflateInit2_
-                0x00000000200353a0       0x10 arch/arm/cpu/armv7/start.o
+                0x0000000020035394       0x10 arch/arm/cpu/armv7/start.o
  .rel.text.inflate
-                0x00000000200353b0      0x188 arch/arm/cpu/armv7/start.o
+                0x00000000200353a4      0x188 arch/arm/cpu/armv7/start.o
  .rel.text.crc7
-                0x0000000020035538        0x0 arch/arm/cpu/armv7/start.o
+                0x000000002003552c        0x0 arch/arm/cpu/armv7/start.o
  .rel.text.cyg_crc16
-                0x0000000020035538        0x8 arch/arm/cpu/armv7/start.o
+                0x000000002003552c        0x8 arch/arm/cpu/armv7/start.o
  .rel.text.zunzip
-                0x0000000020035540       0x28 arch/arm/cpu/armv7/start.o
+                0x0000000020035534       0x28 arch/arm/cpu/armv7/start.o
  .rel.text.gunzip
-                0x0000000020035568       0x10 arch/arm/cpu/armv7/start.o
+                0x000000002003555c       0x10 arch/arm/cpu/armv7/start.o
  .rel.text.lmb_alloc_base
-                0x0000000020035578        0x8 arch/arm/cpu/armv7/start.o
+                0x000000002003556c        0x8 arch/arm/cpu/armv7/start.o
  .rel.text.strmhz
-                0x0000000020035580       0x10 arch/arm/cpu/armv7/start.o
+                0x0000000020035574       0x10 arch/arm/cpu/armv7/start.o
  .rel.text.match_string.isra.3
-                0x0000000020035590        0x8 arch/arm/cpu/armv7/start.o
+                0x0000000020035584        0x8 arch/arm/cpu/armv7/start.o
  .rel.text.hcreate_r
-                0x0000000020035598        0x8 arch/arm/cpu/armv7/start.o
+                0x000000002003558c        0x8 arch/arm/cpu/armv7/start.o
  .rel.text.hdestroy_r
-                0x00000000200355a0        0x8 arch/arm/cpu/armv7/start.o
+                0x0000000020035594        0x8 arch/arm/cpu/armv7/start.o
  .rel.text.hmatch_r
-                0x00000000200355a8        0x8 arch/arm/cpu/armv7/start.o
+                0x000000002003559c        0x8 arch/arm/cpu/armv7/start.o
  .rel.text.hsearch_r
-                0x00000000200355b0        0x8 arch/arm/cpu/armv7/start.o
+                0x00000000200355a4        0x8 arch/arm/cpu/armv7/start.o
  .rel.text.hdelete_r
-                0x00000000200355b8        0x8 arch/arm/cpu/armv7/start.o
+                0x00000000200355ac        0x8 arch/arm/cpu/armv7/start.o
  .rel.text.hexport_r
-                0x00000000200355c0       0x18 arch/arm/cpu/armv7/start.o
+                0x00000000200355b4       0x18 arch/arm/cpu/armv7/start.o
  .rel.text.himport_r
-                0x00000000200355d8       0x20 arch/arm/cpu/armv7/start.o
+                0x00000000200355cc       0x20 arch/arm/cpu/armv7/start.o
  .rel.text.display_options
-                0x00000000200355f8        0x0 arch/arm/cpu/armv7/start.o
+                0x00000000200355ec        0x0 arch/arm/cpu/armv7/start.o
  .rel.text.print_size
-                0x00000000200355f8       0x28 arch/arm/cpu/armv7/start.o
+                0x00000000200355ec       0x28 arch/arm/cpu/armv7/start.o
  .rel.text.print_buffer
-                0x0000000020035620       0x28 arch/arm/cpu/armv7/start.o
+                0x0000000020035614       0x28 arch/arm/cpu/armv7/start.o
  .rel.text.crc32_no_comp
-                0x0000000020035648        0x8 arch/arm/cpu/armv7/start.o
+                0x000000002003563c        0x8 arch/arm/cpu/armv7/start.o
  .rel.text.hang
-                0x0000000020035650        0x8 arch/arm/cpu/armv7/start.o
+                0x0000000020035644        0x8 arch/arm/cpu/armv7/start.o
  .rel.text.skip_spaces
-                0x0000000020035658        0x8 arch/arm/cpu/armv7/start.o
+                0x000000002003564c        0x8 arch/arm/cpu/armv7/start.o
  .rel.text.strim
-                0x0000000020035660        0x8 arch/arm/cpu/armv7/start.o
+                0x0000000020035654        0x8 arch/arm/cpu/armv7/start.o
  .rel.text.strncasecmp
-                0x0000000020035668        0x0 arch/arm/cpu/armv7/start.o
+                0x000000002003565c        0x0 arch/arm/cpu/armv7/start.o
  .rel.text.strtok
-                0x0000000020035668        0x0 arch/arm/cpu/armv7/start.o
+                0x000000002003565c        0x0 arch/arm/cpu/armv7/start.o
  .rel.text.string.isra.0
-                0x0000000020035668        0x8 arch/arm/cpu/armv7/start.o
+                0x000000002003565c        0x8 arch/arm/cpu/armv7/start.o
  .rel.text.number.isra.4
-                0x0000000020035670        0x8 arch/arm/cpu/armv7/start.o
+                0x0000000020035664        0x8 arch/arm/cpu/armv7/start.o
  .rel.text.vsnprintf_internal.isra.6
-                0x0000000020035678       0x10 arch/arm/cpu/armv7/start.o
+                0x000000002003566c       0x10 arch/arm/cpu/armv7/start.o
  .rel.text.simple_strtoul
-                0x0000000020035688        0x8 arch/arm/cpu/armv7/start.o
+                0x000000002003567c        0x8 arch/arm/cpu/armv7/start.o
  .rel.text.simple_strtoull
-                0x0000000020035690        0x8 arch/arm/cpu/armv7/start.o
+                0x0000000020035684        0x8 arch/arm/cpu/armv7/start.o
  .rel.text.__assert_fail
-                0x0000000020035698        0x0 arch/arm/cpu/armv7/start.o
+                0x000000002003568c        0x0 arch/arm/cpu/armv7/start.o
  .rel.text.simple_itoa
-                0x0000000020035698        0x8 arch/arm/cpu/armv7/start.o
+                0x000000002003568c        0x8 arch/arm/cpu/armv7/start.o
  .rel.text.print_grouped_ull
-                0x00000000200356a0        0x0 arch/arm/cpu/armv7/start.o
+                0x0000000020035694        0x0 arch/arm/cpu/armv7/start.o
  .rel.rodata.z_errmsg
-                0x00000000200356a0        0x0 arch/arm/cpu/armv7/start.o
+                0x0000000020035694        0x0 arch/arm/cpu/armv7/start.o
  .rel.text.ArpInit
-                0x00000000200356a0       0x30 arch/arm/cpu/armv7/start.o
+                0x0000000020035694       0x30 arch/arm/cpu/armv7/start.o
  .rel.text.arp_raw_request
-                0x00000000200356d0       0x18 arch/arm/cpu/armv7/start.o
+                0x00000000200356c4       0x18 arch/arm/cpu/armv7/start.o
  .rel.text.ArpRequest
-                0x00000000200356e8       0x38 arch/arm/cpu/armv7/start.o
+                0x00000000200356dc       0x38 arch/arm/cpu/armv7/start.o
  .rel.text.ArpTimeoutCheck
-                0x0000000020035720       0x20 arch/arm/cpu/armv7/start.o
+                0x0000000020035714       0x20 arch/arm/cpu/armv7/start.o
  .rel.text.ArpReceive
-                0x0000000020035740       0x40 arch/arm/cpu/armv7/start.o
+                0x0000000020035734       0x40 arch/arm/cpu/armv7/start.o
  .rel.text.BootpHandler
-                0x0000000020035780       0x90 arch/arm/cpu/armv7/start.o
+                0x0000000020035774       0x90 arch/arm/cpu/armv7/start.o
  .rel.text.BootpRequest
-                0x0000000020035810       0x48 arch/arm/cpu/armv7/start.o
+                0x0000000020035804       0x48 arch/arm/cpu/armv7/start.o
  .rel.text.BootpTimeout
-                0x0000000020035858       0x18 arch/arm/cpu/armv7/start.o
+                0x000000002003584c       0x18 arch/arm/cpu/armv7/start.o
  .rel.text.eth_current_changed
-                0x0000000020035870       0x10 arch/arm/cpu/armv7/start.o
+                0x0000000020035864       0x10 arch/arm/cpu/armv7/start.o
  .rel.text.eth_setenv_enetaddr
-                0x0000000020035880        0x8 arch/arm/cpu/armv7/start.o
+                0x0000000020035874        0x8 arch/arm/cpu/armv7/start.o
  .rel.text.eth_getenv_enetaddr_by_index
-                0x0000000020035888       0x10 arch/arm/cpu/armv7/start.o
+                0x000000002003587c       0x10 arch/arm/cpu/armv7/start.o
  .rel.text.eth_get_dev_by_name
-                0x0000000020035898        0x0 arch/arm/cpu/armv7/start.o
+                0x000000002003588c        0x0 arch/arm/cpu/armv7/start.o
  .rel.text.eth_get_dev_by_index
-                0x0000000020035898        0x8 arch/arm/cpu/armv7/start.o
+                0x000000002003588c        0x8 arch/arm/cpu/armv7/start.o
  .rel.text.eth_get_dev_index
-                0x00000000200358a0        0x8 arch/arm/cpu/armv7/start.o
+                0x0000000020035894        0x8 arch/arm/cpu/armv7/start.o
  .rel.text.eth_write_hwaddr
-                0x00000000200358a8       0x48 arch/arm/cpu/armv7/start.o
+                0x000000002003589c       0x48 arch/arm/cpu/armv7/start.o
  .rel.text.eth_register
-                0x00000000200358f0       0x18 arch/arm/cpu/armv7/start.o
+                0x00000000200358e4       0x18 arch/arm/cpu/armv7/start.o
  .rel.text.eth_unregister
-                0x0000000020035908        0x0 arch/arm/cpu/armv7/start.o
+                0x00000000200358fc        0x0 arch/arm/cpu/armv7/start.o
  .rel.text.eth_initialize
-                0x0000000020035908       0x90 arch/arm/cpu/armv7/start.o
+                0x00000000200358fc       0x90 arch/arm/cpu/armv7/start.o
  .rel.text.eth_halt
-                0x0000000020035998        0x8 arch/arm/cpu/armv7/start.o
+                0x000000002003598c        0x8 arch/arm/cpu/armv7/start.o
  .rel.text.eth_send
-                0x00000000200359a0        0x8 arch/arm/cpu/armv7/start.o
+                0x0000000020035994        0x8 arch/arm/cpu/armv7/start.o
  .rel.text.eth_rx
-                0x00000000200359a8        0x8 arch/arm/cpu/armv7/start.o
+                0x000000002003599c        0x8 arch/arm/cpu/armv7/start.o
  .rel.text.eth_try_another
-                0x00000000200359b0       0x28 arch/arm/cpu/armv7/start.o
+                0x00000000200359a4       0x28 arch/arm/cpu/armv7/start.o
  .rel.text.eth_init
-                0x00000000200359d8       0x20 arch/arm/cpu/armv7/start.o
+                0x00000000200359cc       0x20 arch/arm/cpu/armv7/start.o
  .rel.text.eth_set_current
-                0x00000000200359f8       0x20 arch/arm/cpu/armv7/start.o
+                0x00000000200359ec       0x20 arch/arm/cpu/armv7/start.o
  .rel.text.eth_get_name
-                0x0000000020035a18       0x10 arch/arm/cpu/armv7/start.o
+                0x0000000020035a0c       0x10 arch/arm/cpu/armv7/start.o
  .rel.text.startAgainTimeout
-                0x0000000020035a28        0x8 arch/arm/cpu/armv7/start.o
+                0x0000000020035a1c        0x8 arch/arm/cpu/armv7/start.o
  .rel.text.net_clear_handlers
-                0x0000000020035a30       0x20 arch/arm/cpu/armv7/start.o
+                0x0000000020035a24       0x20 arch/arm/cpu/armv7/start.o
  .rel.text.net_auto_load
-                0x0000000020035a50       0x18 arch/arm/cpu/armv7/start.o
+                0x0000000020035a44       0x18 arch/arm/cpu/armv7/start.o
  .rel.text.NetStartAgain
-                0x0000000020035a68       0x78 arch/arm/cpu/armv7/start.o
+                0x0000000020035a5c       0x78 arch/arm/cpu/armv7/start.o
  .rel.text.net_get_udp_handler
-                0x0000000020035ae0        0x0 arch/arm/cpu/armv7/start.o
+                0x0000000020035ad4        0x0 arch/arm/cpu/armv7/start.o
  .rel.text.net_set_udp_handler
-                0x0000000020035ae0       0x10 arch/arm/cpu/armv7/start.o
+                0x0000000020035ad4       0x10 arch/arm/cpu/armv7/start.o
  .rel.text.net_get_arp_handler
-                0x0000000020035af0        0x8 arch/arm/cpu/armv7/start.o
+                0x0000000020035ae4        0x8 arch/arm/cpu/armv7/start.o
  .rel.text.net_set_arp_handler
-                0x0000000020035af8        0x0 arch/arm/cpu/armv7/start.o
+                0x0000000020035aec        0x0 arch/arm/cpu/armv7/start.o
  .rel.text.NetSetTimeout
-                0x0000000020035af8       0x18 arch/arm/cpu/armv7/start.o
+                0x0000000020035aec       0x18 arch/arm/cpu/armv7/start.o
  .rel.text.NetReceive
-                0x0000000020035b10       0x38 arch/arm/cpu/armv7/start.o
+                0x0000000020035b04       0x38 arch/arm/cpu/armv7/start.o
  .rel.text.NetEthHdrSize
-                0x0000000020035b48        0x8 arch/arm/cpu/armv7/start.o
+                0x0000000020035b3c        0x8 arch/arm/cpu/armv7/start.o
  .rel.text.NetSetEther
-                0x0000000020035b50       0x10 arch/arm/cpu/armv7/start.o
+                0x0000000020035b44       0x10 arch/arm/cpu/armv7/start.o
  .rel.text.net_update_ether
-                0x0000000020035b60        0x8 arch/arm/cpu/armv7/start.o
+                0x0000000020035b54        0x8 arch/arm/cpu/armv7/start.o
  .rel.text.net_set_ip_header
-                0x0000000020035b68        0x8 arch/arm/cpu/armv7/start.o
+                0x0000000020035b5c        0x8 arch/arm/cpu/armv7/start.o
  .rel.text.net_set_udp_header
-                0x0000000020035b70        0x8 arch/arm/cpu/armv7/start.o
+                0x0000000020035b64        0x8 arch/arm/cpu/armv7/start.o
  .rel.text.NetSendUDPPacket
-                0x0000000020035b78       0x40 arch/arm/cpu/armv7/start.o
+                0x0000000020035b6c       0x40 arch/arm/cpu/armv7/start.o
  .rel.text.on_bootfile
-                0x0000000020035bb8        0x8 arch/arm/cpu/armv7/start.o
+                0x0000000020035bac        0x8 arch/arm/cpu/armv7/start.o
  .rel.text.ip_to_string
-                0x0000000020035bc0        0x8 arch/arm/cpu/armv7/start.o
+                0x0000000020035bb4        0x8 arch/arm/cpu/armv7/start.o
  .rel.text.VLAN_to_string
-                0x0000000020035bc8        0x0 arch/arm/cpu/armv7/start.o
+                0x0000000020035bbc        0x0 arch/arm/cpu/armv7/start.o
  .rel.text.NetInitLoop
-                0x0000000020035bc8       0x78 arch/arm/cpu/armv7/start.o
+                0x0000000020035bbc       0x78 arch/arm/cpu/armv7/start.o
  .rel.text.net_init
-                0x0000000020035c40       0x20 arch/arm/cpu/armv7/start.o
+                0x0000000020035c34       0x20 arch/arm/cpu/armv7/start.o
  .rel.text.NetLoop
-                0x0000000020035c60       0xc8 arch/arm/cpu/armv7/start.o
+                0x0000000020035c54       0xc8 arch/arm/cpu/armv7/start.o
  .rel.text.rpc_lookup_reply
-                0x0000000020035d28       0x18 arch/arm/cpu/armv7/start.o
+                0x0000000020035d1c       0x18 arch/arm/cpu/armv7/start.o
  .rel.text.nfs_mount_reply
-                0x0000000020035d40       0x18 arch/arm/cpu/armv7/start.o
+                0x0000000020035d34       0x18 arch/arm/cpu/armv7/start.o
  .rel.text.nfs_umountall_reply
-                0x0000000020035d58       0x18 arch/arm/cpu/armv7/start.o
+                0x0000000020035d4c       0x18 arch/arm/cpu/armv7/start.o
  .rel.text.nfs_lookup_reply
-                0x0000000020035d70       0x10 arch/arm/cpu/armv7/start.o
+                0x0000000020035d64       0x10 arch/arm/cpu/armv7/start.o
  .rel.text.nfs_readlink_reply
-                0x0000000020035d80       0x18 arch/arm/cpu/armv7/start.o
+                0x0000000020035d74       0x18 arch/arm/cpu/armv7/start.o
  .rel.text.rpc_add_credentials
-                0x0000000020035d98        0x8 arch/arm/cpu/armv7/start.o
+                0x0000000020035d8c        0x8 arch/arm/cpu/armv7/start.o
  .rel.text.rpc_req
-                0x0000000020035da0       0x38 arch/arm/cpu/armv7/start.o
+                0x0000000020035d94       0x38 arch/arm/cpu/armv7/start.o
  .rel.text.nfs_umountall_req
-                0x0000000020035dd8       0x10 arch/arm/cpu/armv7/start.o
+                0x0000000020035dcc       0x10 arch/arm/cpu/armv7/start.o
  .rel.text.nfs_lookup_req
-                0x0000000020035de8        0x8 arch/arm/cpu/armv7/start.o
+                0x0000000020035ddc        0x8 arch/arm/cpu/armv7/start.o
  .rel.text.nfs_read_req
-                0x0000000020035df0        0x8 arch/arm/cpu/armv7/start.o
+                0x0000000020035de4        0x8 arch/arm/cpu/armv7/start.o
  .rel.text.nfs_readlink_req
-                0x0000000020035df8        0x8 arch/arm/cpu/armv7/start.o
+                0x0000000020035dec        0x8 arch/arm/cpu/armv7/start.o
  .rel.text.nfs_read_reply.isra.0
-                0x0000000020035e00       0x28 arch/arm/cpu/armv7/start.o
+                0x0000000020035df4       0x28 arch/arm/cpu/armv7/start.o
  .rel.text.NfsSend
-                0x0000000020035e28       0x60 arch/arm/cpu/armv7/start.o
+                0x0000000020035e1c       0x60 arch/arm/cpu/armv7/start.o
  .rel.text.NfsHandler
-                0x0000000020035e88       0xa8 arch/arm/cpu/armv7/start.o
+                0x0000000020035e7c       0xa8 arch/arm/cpu/armv7/start.o
  .rel.text.NfsTimeout
-                0x0000000020035f30       0x20 arch/arm/cpu/armv7/start.o
+                0x0000000020035f24       0x20 arch/arm/cpu/armv7/start.o
  .rel.text.NfsStart
-                0x0000000020035f50       0xe0 arch/arm/cpu/armv7/start.o
+                0x0000000020035f44       0xe0 arch/arm/cpu/armv7/start.o
  .rel.text.TftpSend
-                0x0000000020036030       0xb8 arch/arm/cpu/armv7/start.o
+                0x0000000020036024       0xb8 arch/arm/cpu/armv7/start.o
  .rel.text.TftpHandler
-                0x00000000200360e8       0xc0 arch/arm/cpu/armv7/start.o
+                0x00000000200360dc       0xc0 arch/arm/cpu/armv7/start.o
  .rel.text.TftpTimeout
-                0x00000000200361a8       0x40 arch/arm/cpu/armv7/start.o
+                0x000000002003619c       0x40 arch/arm/cpu/armv7/start.o
  .rel.text.TftpStart
-                0x00000000200361e8      0x130 arch/arm/cpu/armv7/start.o
+                0x00000000200361dc      0x130 arch/arm/cpu/armv7/start.o
  .rel.u_boot_list_2_env_clbk_2_bootfile
-                0x0000000020036318       0x10 arch/arm/cpu/armv7/start.o
+                0x000000002003630c       0x10 arch/arm/cpu/armv7/start.o
  .rel.text.raise
-                0x0000000020036328        0x8 arch/arm/cpu/armv7/start.o
+                0x000000002003631c        0x8 arch/arm/cpu/armv7/start.o
 
-.rel_dyn_end    0x0000000020036330        0x0
+.rel_dyn_end    0x0000000020036324        0x0
  *(.__rel_dyn_end)
  .__rel_dyn_end
-                0x0000000020036330        0x0 arch/arm/lib/built-in.o
+                0x0000000020036324        0x0 arch/arm/lib/built-in.o
 
 .end
  *(.__end)
-                0x0000000020036330                _image_binary_end = .
+                0x0000000020036324                _image_binary_end = .
                 0x0000000020037000                . = ALIGN (0x1000)
 
 .mmutable
  *(.mmutable)
 
-.bss_start      0x0000000020030ea8        0x0
+.bss_start      0x0000000020030e9c        0x0
  *(.__bss_start)
- .__bss_start   0x0000000020030ea8        0x0 arch/arm/lib/built-in.o
-                0x0000000020030ea8                __bss_start
-                0x0000000020030ea8                __bss_base = .
+ .__bss_start   0x0000000020030e9c        0x0 arch/arm/lib/built-in.o
+                0x0000000020030e9c                __bss_start
+                0x0000000020030e9c                __bss_base = .
 
-.bss            0x0000000020030ea8    0x35718
+.bss            0x0000000020030e9c    0x35724
  *(.bss*)
  .bss.monitor_flash_len
-                0x0000000020030ea8        0x4 arch/arm/lib/built-in.o
-                0x0000000020030ea8                monitor_flash_len
- .bss.params    0x0000000020030eac        0x4 arch/arm/lib/built-in.o
+                0x0000000020030e9c        0x4 arch/arm/lib/built-in.o
+                0x0000000020030e9c                monitor_flash_len
+ .bss.params    0x0000000020030ea0        0x4 arch/arm/lib/built-in.o
  .bss.hist_list
-                0x0000000020030eb0       0x50 common/built-in.o
+                0x0000000020030ea4       0x50 common/built-in.o
  .bss.hist_lines
-                0x0000000020030f00     0x1414 common/built-in.o
- .bss.hist_max  0x0000000020032314        0x4 common/built-in.o
+                0x0000000020030ef4     0x1414 common/built-in.o
+ .bss.hist_max  0x0000000020032308        0x4 common/built-in.o
  .bss.hist_add_idx
-                0x0000000020032318        0x4 common/built-in.o
+                0x000000002003230c        0x4 common/built-in.o
  .bss.initted.7157
-                0x000000002003231c        0x4 common/built-in.o
- .bss.hist_num  0x0000000020032320        0x4 common/built-in.o
+                0x0000000020032310        0x4 common/built-in.o
+ .bss.hist_num  0x0000000020032314        0x4 common/built-in.o
  .bss.console_buffer
-                0x0000000020032324      0x101 common/built-in.o
-                0x0000000020032324                console_buffer
- .bss.tmp_buf   0x0000000020032425      0x100 common/built-in.o
+                0x0000000020032318      0x101 common/built-in.o
+                0x0000000020032318                console_buffer
+ .bss.tmp_buf   0x0000000020032419      0x100 common/built-in.o
  .bss.tmp_buf.6350
-                0x0000000020032525      0x200 common/built-in.o
- *fill*         0x0000000020032725        0x3 
+                0x0000000020032519      0x200 common/built-in.o
+ *fill*         0x0000000020032719        0x3 
  .bss.flag_repeat
-                0x0000000020032728        0x4 common/built-in.o
+                0x000000002003271c        0x4 common/built-in.o
  .bss.the_command.6542
-                0x000000002003272c      0x100 common/built-in.o
- .bss.ifs       0x000000002003282c        0x4 common/built-in.o
+                0x0000000020032720      0x100 common/built-in.o
+ .bss.ifs       0x0000000020032820        0x4 common/built-in.o
  .bss.last_return_code
-                0x0000000020032830        0x4 common/built-in.o
- .bss.map       0x0000000020032834      0x100 common/built-in.o
- .bss.buf.6742  0x0000000020032934       0x28 common/built-in.o
+                0x0000000020032824        0x4 common/built-in.o
+ .bss.map       0x0000000020032828      0x100 common/built-in.o
+ .bss.buf.6742  0x0000000020032928       0x28 common/built-in.o
  .bss.do_repeat
-                0x000000002003295c        0x4 common/built-in.o
- .bss.top_vars  0x0000000020032960        0x4 common/built-in.o
- .bss.xyz       0x0000000020032964      0x434 common/built-in.o
- .bss.images    0x0000000020032d98      0x130 common/built-in.o
-                0x0000000020032d98                images
+                0x0000000020032950        0x4 common/built-in.o
+ .bss.top_vars  0x0000000020032954        0x4 common/built-in.o
+ .bss.xyz       0x0000000020032958      0x434 common/built-in.o
+ .bss.images    0x0000000020032d8c      0x130 common/built-in.o
+                0x0000000020032d8c                images
  .bss.callback_list
-                0x0000000020032ec8        0x4 common/built-in.o
+                0x0000000020032ebc        0x4 common/built-in.o
  .bss.flags_list
-                0x0000000020032ecc        0x4 common/built-in.o
+                0x0000000020032ec0        0x4 common/built-in.o
  .bss.send_parms
-                0x0000000020032ed0       0x14 common/built-in.o
+                0x0000000020032ec4       0x14 common/built-in.o
  .bss.os_data_init
-                0x0000000020032ee4        0x4 common/built-in.o
+                0x0000000020032ed8        0x4 common/built-in.o
  .bss.os_data_addr_saved
-                0x0000000020032ee8        0x4 common/built-in.o
+                0x0000000020032edc        0x4 common/built-in.o
  .bss.his_pad_char
-                0x0000000020032eec        0x1 common/built-in.o
- .bss.a_b       0x0000000020032eed       0x18 common/built-in.o
- *fill*         0x0000000020032f05        0x3 
+                0x0000000020032ee0        0x1 common/built-in.o
+ .bss.a_b       0x0000000020032ee1       0x18 common/built-in.o
+ *fill*         0x0000000020032ef9        0x3 
  .bss.os_data_char
-                0x0000000020032f08        0x4 common/built-in.o
+                0x0000000020032efc        0x4 common/built-in.o
  .bss.os_data_state
-                0x0000000020032f0c        0x4 common/built-in.o
+                0x0000000020032f00        0x4 common/built-in.o
  .bss.k_data_escape
-                0x0000000020032f10        0x4 common/built-in.o
+                0x0000000020032f04        0x4 common/built-in.o
  .bss.os_data_state_saved
-                0x0000000020032f14        0x4 common/built-in.o
+                0x0000000020032f08        0x4 common/built-in.o
  .bss.os_data_addr
-                0x0000000020032f18        0x4 common/built-in.o
- .bss.send_ptr  0x0000000020032f1c        0x4 common/built-in.o
+                0x0000000020032f0c        0x4 common/built-in.o
+ .bss.send_ptr  0x0000000020032f10        0x4 common/built-in.o
  .bss.bin_start_address
-                0x0000000020032f20        0x4 common/built-in.o
+                0x0000000020032f14        0x4 common/built-in.o
  .bss.his_quote
-                0x0000000020032f24        0x1 common/built-in.o
- *fill*         0x0000000020032f25        0x3 
+                0x0000000020032f18        0x1 common/built-in.o
+ *fill*         0x0000000020032f19        0x3 
  .bss.his_pad_count
-                0x0000000020032f28        0x4 common/built-in.o
- .bss.his_eol   0x0000000020032f2c        0x1 common/built-in.o
- *fill*         0x0000000020032f2d        0x3 
+                0x0000000020032f1c        0x4 common/built-in.o
+ .bss.his_eol   0x0000000020032f20        0x1 common/built-in.o
+ *fill*         0x0000000020032f21        0x3 
  .bss.k_data_escape_saved
-                0x0000000020032f30        0x4 common/built-in.o
+                0x0000000020032f24        0x4 common/built-in.o
  .bss.dp_last_addr
-                0x0000000020032f34        0x4 common/built-in.o
+                0x0000000020032f28        0x4 common/built-in.o
  .bss.base_address
-                0x0000000020032f38        0x4 common/built-in.o
+                0x0000000020032f2c        0x4 common/built-in.o
  .bss.mm_last_size
-                0x0000000020032f3c        0x4 common/built-in.o
+                0x0000000020032f30        0x4 common/built-in.o
  .bss.mm_last_addr
-                0x0000000020032f40        0x4 common/built-in.o
+                0x0000000020032f34        0x4 common/built-in.o
  .bss.dp_last_size
-                0x0000000020032f44        0x4 common/built-in.o
- .bss.last_ids  0x0000000020032f48       0x80 common/built-in.o
+                0x0000000020032f38        0x4 common/built-in.o
+ .bss.last_ids  0x0000000020032f3c       0x80 common/built-in.o
  .bss.current_mtd_dev
-                0x0000000020032fc8        0x4 common/built-in.o
-                0x0000000020032fc8                current_mtd_dev
+                0x0000000020032fbc        0x4 common/built-in.o
+                0x0000000020032fbc                current_mtd_dev
  .bss.last_partition
-                0x0000000020032fcc       0x10 common/built-in.o
+                0x0000000020032fc0       0x10 common/built-in.o
  .bss.last_parts
-                0x0000000020032fdc      0x200 common/built-in.o
+                0x0000000020032fd0      0x200 common/built-in.o
  .bss.initialized.7548
-                0x00000000200331dc        0x4 common/built-in.o
+                0x00000000200331d0        0x4 common/built-in.o
  .bss.current_mtd_partnum
-                0x00000000200331e0        0x1 common/built-in.o
-                0x00000000200331e0                current_mtd_partnum
- *fill*         0x00000000200331e1        0x3 
- .bss.mtdids    0x00000000200331e4        0x8 common/built-in.o
- .bss.devices   0x00000000200331ec        0x8 common/built-in.o
- *fill*         0x00000000200331f4        0x4 
+                0x00000000200331d4        0x1 common/built-in.o
+                0x00000000200331d4                current_mtd_partnum
+ *fill*         0x00000000200331d5        0x3 
+ .bss.mtdids    0x00000000200331d8        0x8 common/built-in.o
+ .bss.devices   0x00000000200331e0        0x8 common/built-in.o
  .bss.last.7288
-                0x00000000200331f8        0x8 common/built-in.o
+                0x00000000200331e8        0x8 common/built-in.o
  .bss.ctrlc_was_pressed
-                0x0000000020033200        0x4 common/built-in.o
+                0x00000000200331f0        0x4 common/built-in.o
  .bss.ctrlc_disabled
-                0x0000000020033204        0x4 common/built-in.o
+                0x00000000200331f4        0x4 common/built-in.o
  .bss.max_total_mem
-                0x0000000020033208        0x4 common/built-in.o
+                0x00000000200331f8        0x4 common/built-in.o
  .bss.mem_malloc_brk
-                0x000000002003320c        0x4 common/built-in.o
-                0x000000002003320c                mem_malloc_brk
+                0x00000000200331fc        0x4 common/built-in.o
+                0x00000000200331fc                mem_malloc_brk
  .bss.max_sbrked_mem
-                0x0000000020033210        0x4 common/built-in.o
+                0x0000000020033200        0x4 common/built-in.o
  .bss.current_mallinfo
-                0x0000000020033214       0x28 common/built-in.o
+                0x0000000020033204       0x28 common/built-in.o
  .bss.mem_malloc_end
-                0x000000002003323c        0x4 common/built-in.o
-                0x000000002003323c                mem_malloc_end
- .bss.top_pad   0x0000000020033240        0x4 common/built-in.o
+                0x000000002003322c        0x4 common/built-in.o
+                0x000000002003322c                mem_malloc_end
+ .bss.top_pad   0x0000000020033230        0x4 common/built-in.o
  .bss.mem_malloc_start
-                0x0000000020033244        0x4 common/built-in.o
-                0x0000000020033244                mem_malloc_start
- .bss.devs      0x0000000020033248       0x3c common/built-in.o
+                0x0000000020033234        0x4 common/built-in.o
+                0x0000000020033234                mem_malloc_start
+ .bss.devs      0x0000000020033238       0x3c common/built-in.o
  .bss.stdio_devices
-                0x0000000020033284        0xc common/built-in.o
-                0x0000000020033284                stdio_devices
+                0x0000000020033274        0xc common/built-in.o
+                0x0000000020033274                stdio_devices
  .bss.mtd_table
-                0x0000000020033290       0x80 drivers/mtd/built-in.o
-                0x0000000020033290                mtd_table
+                0x0000000020033280       0x80 drivers/mtd/built-in.o
+                0x0000000020033280                mtd_table
  .bss.nand_info
-                0x0000000020033310       0xb0 drivers/mtd/nand/built-in.o
-                0x0000000020033310                nand_info
+                0x0000000020033300       0xb0 drivers/mtd/nand/built-in.o
+                0x0000000020033300                nand_info
  .bss.nand_chip
-                0x00000000200333c0      0x128 drivers/mtd/nand/built-in.o
+                0x00000000200333b0      0x128 drivers/mtd/nand/built-in.o
  .bss.total_nand_size
-                0x00000000200334e8        0x4 drivers/mtd/nand/built-in.o
- .bss.dev_name  0x00000000200334ec        0x8 drivers/mtd/nand/built-in.o
+                0x00000000200334d8        0x4 drivers/mtd/nand/built-in.o
+ .bss.dev_name  0x00000000200334dc        0x8 drivers/mtd/nand/built-in.o
  .bss.serial_devices
-                0x00000000200334f4        0x4 drivers/serial/built-in.o
+                0x00000000200334e4        0x4 drivers/serial/built-in.o
  .bss.serial_current
-                0x00000000200334f8        0x4 drivers/serial/built-in.o
+                0x00000000200334e8        0x4 drivers/serial/built-in.o
  .bss.fs_partition
-                0x00000000200334fc       0x50 fs/built-in.o
- .bss.fs_type   0x000000002003354c        0x4 fs/built-in.o
+                0x00000000200334ec       0x50 fs/built-in.o
+ .bss.fs_type   0x000000002003353c        0x4 fs/built-in.o
  .bss.fs_dev_desc
-                0x0000000020033550        0x4 fs/built-in.o
- *fill*         0x0000000020033554       0x2c 
+                0x0000000020033540        0x4 fs/built-in.o
+ *fill*         0x0000000020033544       0x3c 
  .bss.do_fat_read_at_block
                 0x0000000020033580    0x10000 fs/built-in.o
                 0x0000000020033580                do_fat_read_at_block
@@ -4281,41 +4280,41 @@ Address of section .text set to 0x20000000
  .__bss_end     0x00000000200665c0        0x0 arch/arm/lib/built-in.o
                 0x00000000200665c0                __bss_end
 
-.dynsym         0x0000000020036330       0x30
+.dynsym         0x0000000020036324       0x30
  *(.dynsym)
- .dynsym        0x0000000020036330       0x30 arch/arm/cpu/armv7/start.o
+ .dynsym        0x0000000020036324       0x30 arch/arm/cpu/armv7/start.o
 
-.dynbss         0x0000000020036360        0x0
+.dynbss         0x0000000020036354        0x0
  *(.dynbss)
- .dynbss        0x0000000020036360        0x0 arch/arm/cpu/armv7/start.o
+ .dynbss        0x0000000020036354        0x0 arch/arm/cpu/armv7/start.o
 
-.dynstr         0x0000000020036360        0x1
+.dynstr         0x0000000020036354        0x1
  *(.dynstr*)
- .dynstr        0x0000000020036360        0x1 arch/arm/cpu/armv7/start.o
+ .dynstr        0x0000000020036354        0x1 arch/arm/cpu/armv7/start.o
 
-.dynamic        0x0000000020036364       0x88
+.dynamic        0x0000000020036358       0x88
  *(.dynamic*)
- .dynamic       0x0000000020036364       0x88 arch/arm/cpu/armv7/start.o
-                0x0000000020036364                _DYNAMIC
+ .dynamic       0x0000000020036358       0x88 arch/arm/cpu/armv7/start.o
+                0x0000000020036358                _DYNAMIC
 
-.plt            0x00000000200363ec        0x0
+.plt            0x00000000200363e0        0x0
  *(.plt*)
- .plt           0x00000000200363ec        0x0 arch/arm/cpu/armv7/start.o
+ .plt           0x00000000200363e0        0x0 arch/arm/cpu/armv7/start.o
 
-.interp         0x00000000200363ec       0x11
+.interp         0x00000000200363e0       0x11
  *(.interp*)
- .interp        0x00000000200363ec       0x11 arch/arm/cpu/armv7/start.o
+ .interp        0x00000000200363e0       0x11 arch/arm/cpu/armv7/start.o
 
 .gnu.hash
  *(.gnu.hash)
 
-.gnu            0x0000000020036400        0x0
+.gnu            0x00000000200363f4        0x0
  *(.gnu*)
  .gnu.version_d
-                0x0000000020036400        0x0 arch/arm/cpu/armv7/start.o
- .gnu.version   0x0000000020036400        0x0 arch/arm/cpu/armv7/start.o
+                0x00000000200363f4        0x0 arch/arm/cpu/armv7/start.o
+ .gnu.version   0x00000000200363f4        0x0 arch/arm/cpu/armv7/start.o
  .gnu.version_r
-                0x0000000020036400        0x0 arch/arm/cpu/armv7/start.o
+                0x00000000200363f4        0x0 arch/arm/cpu/armv7/start.o
 
 .ARM.exidx
  *(.ARM.exidx*)

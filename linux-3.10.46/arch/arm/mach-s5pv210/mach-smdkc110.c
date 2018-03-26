@@ -143,6 +143,8 @@ static void __init smdkc110_machine_init(void)
 			ARRAY_SIZE(smdkc110_i2c_devs2));
 
 	s3c_ide_set_platdata(&smdkc110_ide_pdata);
+	
+	s3c_nand_setname("s5pv210-nand");
 
 	platform_add_devices(smdkc110_devices, ARRAY_SIZE(smdkc110_devices));
 }
